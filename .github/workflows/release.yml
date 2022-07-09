@@ -18,11 +18,11 @@ jobs:
           java-version: '17'
 
       - name: Build CurseForge pack
-        run: ./gradlew buildCursePack
+        run: './gradlew buildCursePack'
 
       - name: Upload Release
         uses: ncipollo/release-action@v1
         with:
-          artifacts: build/target/*.zip
+          artifacts: 'build/target/*.zip'
           generateReleaseNotes: true
           token: ${{ secrets.GITHUB_TOKEN }}
