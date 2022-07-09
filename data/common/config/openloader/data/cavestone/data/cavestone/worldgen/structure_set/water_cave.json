@@ -23,6 +23,10 @@
     {
       "structure": "cavestone:water_cave_spruce",
       "weight": 1
+    },
+    {
+      "structure": "cavestone:water_cave_swamp",
+      "weight": 1
     }
   ],
   "placement": {
