@@ -1,0 +1,28 @@
+name: "Create release"
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Build CurseForge pack
+        run: ./gradlew buildCursePack
+
+      - name: Upload Release
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: build/target/*.zip
+          generateReleaseNotes: true
+          token: ${{ secrets.GITHUB_TOKEN }}
