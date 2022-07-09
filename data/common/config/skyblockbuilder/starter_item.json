@@ -1,0 +1,8 @@
+{
+  "items": [
+    {
+      "item": "minecraft:wooden_pickaxe",
+      "nbt": "{Damage:0,Enchantments:[{id:\"minecraft:efficiency\",lvl:2}],Unbreakable:1b,display:{Name:'{\"text\":\"Infinite Pickaxe\"}'}}"
+    }
+  ]
+}

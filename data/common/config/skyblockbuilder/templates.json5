@@ -1,0 +1,17 @@
+{
+  "spawns": {
+    "default": [
+      [ 5, 1, 1 ]
+    ]
+  },
+  
+  // The list of templates being available. The first entry is the default template.
+  "templates": [
+    {
+      "name": "CaveStone",
+      "desc": "The default starting room for CaveStone",
+      "file": "cavestone.nbt",
+      "spawns": "default"
+    }
+  ]
+}

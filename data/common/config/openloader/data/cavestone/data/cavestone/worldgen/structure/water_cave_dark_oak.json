@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:jigsaw",
+  "use_expansion_hack": false,
+  "max_distance_from_center": 3,
+  "start_height": {
+    "type": "uniform",
+    "min_inclusive": {
+      "absolute": 5
+    },
+    "max_inclusive": {
+      "absolute": 280
+    }
+  },
+  "start_pool": "cavestone:water_cave_dark_oak",
+  "size": 7,
+  "step": "underground_structures",
+  "biomes": "#minecraft:is_overworld",
+  "adapt_noise": false,
+  "spawn_overrides": {
+    "water_ambient": {
+      "bounding_box": "full",
+      "spawns": [
+        {
+          "type": "minecraft:cod",
+          "maxCount": 3,
+          "minCount": 1,
+          "weight": 10
+        }
+      ]
+    }
+  }
+}

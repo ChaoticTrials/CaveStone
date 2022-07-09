@@ -1,0 +1,35 @@
+{
+  "structures": [
+    {
+      "structure": "cavestone:water_cave",
+      "weight": 1
+    },
+    {
+      "structure": "cavestone:water_cave_birch",
+      "weight": 1
+    },
+    {
+      "structure": "cavestone:water_cave_dark_oak",
+      "weight": 2
+    },
+    {
+      "structure": "cavestone:water_cave_desert",
+      "weight": 1
+    },
+    {
+      "structure": "cavestone:water_cave_jungle",
+      "weight": 1
+    },
+    {
+      "structure": "cavestone:water_cave_spruce",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "random_spread",
+    "salt": 3198,
+    "spacing": 7,
+    "separation": 3,
+    "frequency_reduction_method": "legacy_type_3"
+  }
+}
