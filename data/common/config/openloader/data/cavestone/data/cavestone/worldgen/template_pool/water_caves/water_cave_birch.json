@@ -5,7 +5,7 @@
     {
       "element": {
         "element_type": "single_pool_element",
-        "location": "cavestone:water_cave_birch",
+        "location": "cavestone:water_caves/water_cave_birch",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },

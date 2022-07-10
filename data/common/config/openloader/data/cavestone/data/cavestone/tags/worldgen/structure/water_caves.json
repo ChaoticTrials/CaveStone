@@ -1,11 +1,11 @@
 {
   "values": [
-    "cavestone:water_cave",
-    "cavestone:water_cave_birch",
-    "cavestone:water_cave_dark_oak",
-    "cavestone:water_cave_desert",
-    "cavestone:water_cave_jungle",
-    "cavestone:water_cave_spruce",
-    "cavestone:water_cave_swamp"
+    "cavestone:water_caves/water_cave",
+    "cavestone:water_caves/water_cave_birch",
+    "cavestone:water_caves/water_cave_dark_oak",
+    "cavestone:water_caves/water_cave_desert",
+    "cavestone:water_caves/water_cave_jungle",
+    "cavestone:water_caves/water_cave_spruce",
+    "cavestone:water_caves/water_cave_swamp"
   ]
 }

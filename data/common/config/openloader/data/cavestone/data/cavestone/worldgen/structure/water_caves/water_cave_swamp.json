@@ -11,7 +11,7 @@
       "absolute": 280
     }
   },
-  "start_pool": "cavestone:water_cave_birch",
+  "start_pool": "cavestone:water_caves/water_cave_swamp",
   "size": 7,
   "step": "underground_structures",
   "biomes": "#minecraft:is_overworld",

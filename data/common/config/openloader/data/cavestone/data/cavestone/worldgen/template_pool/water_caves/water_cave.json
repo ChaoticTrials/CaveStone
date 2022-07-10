@@ -1,11 +1,11 @@
 {
-  "name": "cavestone:water_cave_desert",
+  "name": "cavestone:water_cave",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "element": {
         "element_type": "single_pool_element",
-        "location": "cavestone:water_cave_desert",
+        "location": "cavestone:water_caves/water_cave",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },

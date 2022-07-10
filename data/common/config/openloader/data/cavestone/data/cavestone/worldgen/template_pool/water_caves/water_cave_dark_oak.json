@@ -5,7 +5,7 @@
     {
       "element": {
         "element_type": "single_pool_element",
-        "location": "cavestone:water_cave_dark_oak_brown",
+        "location": "cavestone:water_caves/water_cave_dark_oak_brown",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
@@ -14,7 +14,7 @@
     {
       "element": {
         "element_type": "single_pool_element",
-        "location": "cavestone:water_cave_dark_oak_red",
+        "location": "cavestone:water_caves/water_cave_dark_oak_red",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },

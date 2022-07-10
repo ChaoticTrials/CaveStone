@@ -1,11 +1,11 @@
 {
-  "name": "cavestone:water_cave_spruce",
+  "name": "cavestone:water_cave_swamp",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "element": {
         "element_type": "single_pool_element",
-        "location": "cavestone:water_cave_spruce",
+        "location": "cavestone:water_caves/water_cave_swamp",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
