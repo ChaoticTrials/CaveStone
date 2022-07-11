@@ -1,31 +1,31 @@
 {
   "structures": [
     {
-      "structure": "cavestone:water_caves/water_cave",
+      "structure": "cavestone:water_cave",
       "weight": 1
     },
     {
-      "structure": "cavestone:water_caves/water_cave_birch",
+      "structure": "cavestone:water_cave_birch",
       "weight": 1
     },
     {
-      "structure": "cavestone:water_caves/water_cave_dark_oak",
+      "structure": "cavestone:water_cave_dark_oak",
       "weight": 2
     },
     {
-      "structure": "cavestone:water_caves/water_cave_desert",
+      "structure": "cavestone:water_cave_desert",
       "weight": 1
     },
     {
-      "structure": "cavestone:water_caves/water_cave_jungle",
+      "structure": "cavestone:water_cave_jungle",
       "weight": 1
     },
     {
-      "structure": "cavestone:water_caves/water_cave_spruce",
+      "structure": "cavestone:water_cave_spruce",
       "weight": 1
     },
     {
-      "structure": "cavestone:water_caves/water_cave_swamp",
+      "structure": "cavestone:water_cave_swamp",
       "weight": 1
     }
   ],
