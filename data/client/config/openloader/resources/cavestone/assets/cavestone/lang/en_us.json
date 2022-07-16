@@ -1,4 +1,9 @@
 {
   "cavestone.ruined_portal.map": "Ruined Portal Map",
-  "cavestone.starting_item.pickaxe": "Thickest Wooden Pickaxe"
+  "cavestone.starting_item.pickaxe": "Thickest Wooden Pickaxe",
+
+  "cavestone.advancements.quests.root.title": "Starting a new adventure",
+  "cavestone.advancements.quests.root.desc": "Mine your first cobblestone out of an infinite world full of stone",
+  "cavestone.advancements.quests.locate_cavestone_cave.title": "Exploring the cave",
+  "cavestone.advancements.quests.locate_cavestone_cave.desc": "Find a cave where water can be found, and sometimes treasures are hidden"
 }
