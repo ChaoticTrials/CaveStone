@@ -4,14 +4,27 @@
       [ 5, 1, 1 ]
     ]
   },
-  
-  // The list of templates being available. The first entry is the default template.
   "templates": [
     {
       "name": "CaveStone",
       "desc": "The default starting room for CaveStone",
       "file": "cavestone.nbt",
-      "spawns": "default"
+      "spawns": "default",
+      "direction": "south"
+    },
+    {
+      "name": "CaveStone with Campfire (easy)",
+      "desc": "The default starting room with an additional Campfire",
+      "file": "cavestone_with_campfire.nbt",
+      "spawns": "default",
+      "direction": "south"
+    },
+    {
+      "name": "CaveStone with Crops (easiest)",
+      "desc": "The default starting room with a Campfire and some Crops",
+      "file": "cavestone_with_crops.nbt",
+      "spawns": "default",
+      "direction": "south"
     }
   ]
 }
