@@ -28,7 +28,7 @@ jobs:
         run: 'chmod +x ./gradlew'
 
       - name: Build CurseForge pack
-        run: './gradlew buildCursePack'
+        run: './gradlew buildCursePack buildServerPack'
 
       - name: Upload Release
         uses: ncipollo/release-action@v1
