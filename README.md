@@ -3,8 +3,6 @@
 [![](https://bisecthosting.com/images/CF/CaveStone/BH_CS_Header.png)](https://www.curseforge.com/minecraft/modpacks/cavestone)
 
 ## Need to re-add
-- [Carry On](https://www.curseforge.com/minecraft/mc-mods/carry-on)
-- [EnderStorage 1.8+](https://www.curseforge.com/minecraft/mc-mods/ender-storage-1-8)
 - [Fast Leaf Decay](https://www.curseforge.com/minecraft/mc-mods/fast-leaf-decay)
 - [Inventory Sorter](https://www.curseforge.com/minecraft/mc-mods/inventory-sorter)
 - [Iron Chests](https://www.curseforge.com/minecraft/mc-mods/iron-chests)
