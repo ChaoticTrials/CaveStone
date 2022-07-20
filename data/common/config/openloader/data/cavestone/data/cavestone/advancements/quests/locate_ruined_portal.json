@@ -1,0 +1,126 @@
+{
+  "parent": "cavestone:quests/root",
+  "criteria": {
+    "minecraft:ruined_portal": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:ruined_portal"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "minecraft:ruined_portal_desert": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:ruined_portal_desert"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "minecraft:ruined_portal_jungle": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:ruined_portal_jungle"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "minecraft:ruined_portal_mountain": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:ruined_portal_mountain"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "minecraft:ruined_portal_ocean": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:ruined_portal_ocean"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "minecraft:ruined_portal_swamp": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:ruined_portal_swamp"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "cavestone.advancements.quests.locate_ruined_portal.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:nether_quartz_ore"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "cavestone.advancements.quests.locate_ruined_portal.title"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:ruined_portal",
+      "minecraft:ruined_portal_desert",
+      "minecraft:ruined_portal_jungle",
+      "minecraft:ruined_portal_mountain",
+      "minecraft:ruined_portal_ocean",
+      "minecraft:ruined_portal_swamp"
+    ]
+  ]
+}

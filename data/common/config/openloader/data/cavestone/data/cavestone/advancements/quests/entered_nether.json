@@ -1,0 +1,37 @@
+{
+  "parent": "cavestone:quests/locate_ruined_portal",
+  "criteria": {
+    "entered_nether": {
+      "conditions": {
+        "to": "minecraft:the_nether"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "cavestone.advancements.quests.enter_nether.desc"
+    },
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "minecraft:red_nether_bricks"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "cavestone.advancements.quests.enter_nether.desc"
+    }
+  },
+  "requirements": [
+    [
+      "entered_nether"
+    ]
+  ],
+  "rewards":{
+    "experience": 13,
+    "loot": [
+      "cavestone:generic/fortress"
+    ]
+  }
+}
