@@ -8,7 +8,7 @@
     "clearInv": true
   },
   "Spawn": {
-    "spawnProtectionRadius": 1
+    "spawnProtectionRadius": 2
   },
   "Structures": {
     "generationFeatures": {
