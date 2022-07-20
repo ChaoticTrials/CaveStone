@@ -7,6 +7,7 @@
 - [Inventory Sorter](https://www.curseforge.com/minecraft/mc-mods/inventory-sorter)
 - [Iron Chests](https://www.curseforge.com/minecraft/mc-mods/iron-chests)
 - [MoreOverlays Updated](https://www.curseforge.com/minecraft/mc-mods/more-overlays-updated)
+- [ReAuth](https://www.curseforge.com/minecraft/mc-mods/reauth)
 
 ## Not Sure Yet
 - [Advancement Trophies](https://www.curseforge.com/minecraft/mc-mods/advancement-trophies)
