@@ -14,7 +14,7 @@
     }
   },
   "display": {
-    "announce_to_chat": false,
+    "announce_to_chat": true,
     "background": "minecraft:textures/block/deepslate.png",
     "description": {
       "translate": "cavestone.advancements.quests.root.desc"
