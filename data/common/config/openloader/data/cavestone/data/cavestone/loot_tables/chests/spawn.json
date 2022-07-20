@@ -13,7 +13,7 @@
               "skip_existing_chunks": false,
               "decoration": "red_x",
               "function": "minecraft:exploration_map",
-              "zoom": 1
+              "zoom": 2
             },
             {
               "function": "minecraft:set_name",
