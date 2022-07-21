@@ -212,7 +212,7 @@
   {
     "project": 583228,
     "file": 3887713,
-    "side": "server",
+    "side": "common",
     "locked": false,
     "installed": true
   },
