@@ -14,6 +14,13 @@
     "installed": true
   },
   {
+    "project": 230976,
+    "file": 3894512,
+    "side": "common",
+    "locked": false,
+    "installed": true
+  },
+  {
     "project": 233071,
     "file": 3832466,
     "side": "common",
@@ -143,13 +150,6 @@
     "project": 373014,
     "file": 3864458,
     "side": "client",
-    "locked": false,
-    "installed": true
-  },
-  {
-    "project": 396847,
-    "file": 3885686,
-    "side": "common",
     "locked": false,
     "installed": true
   },
