@@ -1,0 +1,42 @@
+{
+  "parent": "cavestone:quests/root",
+  "criteria": {
+    "hammer": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "simplytools:wooden_hammer",
+              "simplytools:stone_hammer",
+              "simplytools:iron_hammer",
+              "simplytools:golden_hammer",
+              "simplytools:diamond_hammer",
+              "simplytools:netherite_hammer"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "cavestone.advancements.quests.hammer.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "simplytools:stone_hammer"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "cavestone.advancements.quests.hammer.title"
+    }
+  },
+  "requirements": [
+    [
+      "hammer"
+    ]
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "parent": "cavestone:quests/root",
+  "criteria": {
+    "cable": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "storagenetwork:kabel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "core": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "storagenetwork:master"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "terminal": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "storagenetwork:inventory"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "cavestone.advancements.quests.storage_network.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "storagenetwork:request"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "cavestone.advancements.quests.storage_network.title"
+    }
+  },
+  "requirements": [
+    [
+      "cable"
+    ],
+    [
+      "core"
+    ],
+    [
+      "terminal"
+    ]
+  ]
+}
