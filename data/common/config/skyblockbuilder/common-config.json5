@@ -8,7 +8,14 @@
     "clearInv": true
   },
   "Spawn": {
-    "spawnProtectionRadius": 2
+    "spawnProtectionRadius": 2,
+    "interactionEntitiesInSpawnProtection": {
+      "allow_list": true,
+      "elements": [
+        "minecraft:villager",
+        "corpse:corpse"
+      ]
+    }
   },
   "Structures": {
     "generationFeatures": {
