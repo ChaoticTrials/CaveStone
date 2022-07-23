@@ -5,10 +5,10 @@
   "start_height": {
     "type": "uniform",
     "min_inclusive": {
-      "absolute": 5
+      "absolute": 50
     },
     "max_inclusive": {
-      "absolute": 280
+      "absolute": 66
     }
   },
   "start_pool": "cavestone:water_caves/water_cave",
