@@ -1,6 +1,11 @@
 {
   "generator.skyblockbuilder.skyblock": "CaveStone",
 
+  "block.cavestone.compressed_cobblestone": "Compressed Cobblestone",
+  "block.cavestone.double_compressed_cobblestone": "Double Compressed Cobblestone",
+  "block.cavestone.compressed_cobbled_deepslate": "Compressed Cobbled Deepslate",
+  "block.cavestone.double_compressed_cobbled_deepslate": "Double Compressed Cobbled Deepslate",
+
   "cavestone.fortress.map": "Fortress Map",
   "cavestone.ruined_portal.map": "Ruined Portal Map",
   "cavestone.starting_item.pickaxe": "Thickest Wooden Pickaxe",

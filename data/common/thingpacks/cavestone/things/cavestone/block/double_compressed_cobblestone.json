@@ -1,0 +1,16 @@
+{
+  "parent": "minecraft:cobblestone",
+  "type": "plain",
+  "material": "stone",
+  "map_color": "stone",
+  "properties": {
+    "facing": "facing"
+  },
+  "default_state": {
+    "facing": "east"
+  },
+  "shape_rotation": "facing",
+  "item": {
+    "group": "cavestone:cavestone"
+  }
+}
