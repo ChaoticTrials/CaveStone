@@ -11,6 +11,12 @@
   },
   "shape_rotation": "facing",
   "item": {
-    "group": "cavestone:cavestone"
+    "group": "cavestone:cavestone",
+    "lore": [
+      {
+        "translate": "block.cavestone.double_compressed_cobblestone.tooltip",
+        "color": "gray"
+      }
+    ]
   }
 }
