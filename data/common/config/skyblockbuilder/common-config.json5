@@ -12,8 +12,8 @@
     "interactionEntitiesInSpawnProtection": {
       "allow_list": true,
       "elements": [
-        "minecraft:villager",
-        "corpse:corpse"
+        "corpse:corpse",
+        "datatrader:data_trader"
       ]
     }
   },
