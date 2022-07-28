@@ -4,13 +4,13 @@ buildscript {
         maven { url = 'https://libraries.minecraft.net/' }
         maven { url = 'https://maven.parchmentmc.org/' }
         maven { url = 'https://plugins.gradle.org/m2/' }
-        maven { url = 'https://noeppi-noeppi.github.io/MinecraftUtilities/maven' }
+        maven { url = 'https://maven.moddingx.org' }
         mavenCentral()
     }
 
     dependencies {
         classpath 'net.minecraftforge.gradle:ForgeGradle:5.1.41'
-        classpath 'io.github.noeppi_noeppi.tools:ModGradle:2.0.15'
+        classpath 'org.moddingx:ModGradle:3.0.1'
         classpath 'org.apache.maven:maven-artifact:3.8.1'
         classpath 'com.google.code.findbugs:jsr305:3.0.1'
     }
@@ -18,11 +18,18 @@ buildscript {
 
 apply plugin: 'java'
 apply plugin: 'net.minecraftforge.gradle'
-apply plugin: 'io.github.noeppi_noeppi.tools.modgradle.mapping'
-apply plugin: 'io.github.noeppi_noeppi.tools.modgradle.packdev'
+apply plugin: 'org.moddingx.modgradle.mapping'
+apply plugin: 'org.moddingx.modgradle.packdev'
 
 modpack {
-    projectId 639316
+    author 'MelanX'
+    targets {
+        curse(639316)
+    }
+}
+
+minecraft {
+    mappings channel: 'official', version: '1.19'
 }
 
 dependencies {
