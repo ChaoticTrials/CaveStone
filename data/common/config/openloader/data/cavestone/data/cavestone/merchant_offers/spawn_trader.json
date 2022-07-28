@@ -1,0 +1,51 @@
+{
+  "Recipes": [
+    {
+      "buyB": {
+        "item": "minecraft:air",
+        "count": 1
+      },
+      "buy": {
+        "item": "minecraft:diamond",
+        "count": 7
+      },
+      "sell": {
+        "item": "simplytools:stone_hammer",
+        "count": 1,
+        "nbt": "{\"Enchantments\":[{\"lvl\":5,\"id\":\"minecraft:efficiency\"},{\"lvl\":10,\"id\":\"minecraft:unbreaking\"}]}"
+      },
+      "maxUses": 5000000,
+      "rewardExp": 1
+    },
+    {
+      "buyB": {
+        "item": "minecraft:air",
+        "count": 1
+      },
+      "buy": {
+        "item": "cavestone:compressed_cobblestone",
+        "count": 1
+      },
+      "sell": {
+        "item": "minecraft:gravel",
+        "count": 3
+      },
+      "maxUses": 5000000
+    },
+    {
+      "buyB": {
+        "item": "minecraft:air",
+        "count": 1
+      },
+      "buy": {
+        "item": "cavestone:compressed_cobblestone",
+        "count": 1
+      },
+      "sell": {
+        "item": "minecraft:sand",
+        "count": 3
+      },
+      "maxUses": 5000000
+    }
+  ]
+}
