@@ -25,11 +25,12 @@ modpack {
     author 'MelanX'
     targets {
         curse(639316)
+        server()
     }
 }
 
 minecraft {
-    mappings channel: 'official', version: '1.19'
+    mappings channel: 'none', version: 'none'
 }
 
 dependencies {
