@@ -5,10 +5,10 @@
   "start_height": {
     "type": "uniform",
     "min_inclusive": {
-      "absolute": 5
+      "absolute": 60
     },
     "max_inclusive": {
-      "absolute": 220
+      "absolute": 80
     }
   },
   "start_pool": "cavestone:nether_cave",
