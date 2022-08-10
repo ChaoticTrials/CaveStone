@@ -2,17 +2,17 @@
   "api": 2,
   "platform": "curseforge",
   "loader": "forge",
-  "minecraft": "1.19",
+  "minecraft": "1.19.2",
   "installed": [
     {
-      "project": 354339,
-      "file": 3901817,
+      "project": 252848,
+      "file": 3923765,
       "side": "common",
       "locked": false
     },
     {
-      "project": 463703,
-      "file": 3879598,
+      "project": 354339,
+      "file": 3904777,
       "side": "common",
       "locked": false
     },
@@ -23,44 +23,56 @@
       "locked": false
     },
     {
-      "project": 482123,
-      "file": 3872553,
+      "project": 250398,
+      "file": 3904534,
       "side": "common",
       "locked": false
     },
     {
-      "project": 583228,
-      "file": 3887713,
+      "project": 610058,
+      "file": 3920025,
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": 482123,
+      "file": 3920029,
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": 60089,
+      "file": 3871353,
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": 245755,
+      "file": 3901921,
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": 238222,
+      "file": 3922508,
       "side": "common",
       "locked": false
     },
     {
       "project": 316582,
-      "file": 3900242,
+      "file": 3920717,
       "side": "common",
       "locked": false
     },
     {
-      "project": 520367,
-      "file": 3901740,
+      "project": 446691,
+      "file": 3906290,
       "side": "common",
       "locked": false
     },
     {
-      "project": 256717,
-      "file": 3900784,
-      "side": "common",
-      "locked": false
-    },
-    {
-      "project": 373014,
-      "file": 3864458,
-      "side": "client",
-      "locked": false
-    },
-    {
-      "project": 238222,
-      "file": 3903068,
+      "project": 463703,
+      "file": 3906444,
       "side": "common",
       "locked": false
     },
@@ -77,6 +89,24 @@
       "locked": false
     },
     {
+      "project": 233071,
+      "file": 3914007,
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": 650573,
+      "file": 3908152,
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": 557696,
+      "file": 3906371,
+      "side": "common",
+      "locked": false
+    },
+    {
       "project": 541617,
       "file": 3896118,
       "side": "common",
@@ -89,26 +119,26 @@
       "locked": false
     },
     {
-      "project": 610058,
-      "file": 3878613,
+      "project": 391382,
+      "file": 3924846,
       "side": "common",
       "locked": false
     },
     {
-      "project": 250398,
-      "file": 3868567,
-      "side": "client",
-      "locked": false
-    },
-    {
       "project": 561528,
-      "file": 3875570,
+      "file": 3909137,
       "side": "common",
       "locked": false
     },
     {
       "project": 324717,
-      "file": 3903499,
+      "file": 3916646,
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": 636608,
+      "file": 3924974,
       "side": "common",
       "locked": false
     },
@@ -125,68 +155,50 @@
       "locked": false
     },
     {
-      "project": 252848,
-      "file": 3858199,
+      "project": 398521,
+      "file": 3916069,
       "side": "common",
       "locked": false
     },
     {
-      "project": 650573,
-      "file": 3902560,
+      "project": 228756,
+      "file": 3909802,
       "side": "common",
       "locked": false
     },
     {
       "project": 349596,
-      "file": 3829903,
+      "file": 3919912,
       "side": "common",
       "locked": false
     },
     {
-      "project": 557696,
-      "file": 3878332,
-      "side": "common",
-      "locked": false
-    },
-    {
-      "project": 60089,
-      "file": 3871353,
-      "side": "common",
-      "locked": false
-    },
-    {
-      "project": 446691,
-      "file": 3895442,
-      "side": "common",
-      "locked": false
-    },
-    {
-      "project": 245755,
-      "file": 3901921,
+      "project": 256717,
+      "file": 3913408,
       "side": "common",
       "locked": false
     },
     {
       "project": 250419,
-      "file": 3901748,
+      "file": 3916564,
       "side": "common",
       "locked": false
     },
     {
-      "project": 314906,
-      "file": 3890139,
+      "project": 373014,
+      "file": 3906118,
       "side": "common",
       "locked": false
     },
     {
-      "project": 245174,
-      "file": 3881466,
+      "project": 583228,
+      "file": 3906448,
       "side": "common",
       "locked": false
     },
     {
       "project": 268495,
-      "file": 3877271,
+      "file": 3914635,
       "side": "common",
       "locked": false
     },
@@ -197,58 +209,34 @@
       "locked": false
     },
     {
-      "project": 233071,
-      "file": 3901912,
+      "project": 223852,
+      "file": 3884263,
       "side": "common",
       "locked": false
     },
     {
-      "project": 223852,
-      "file": 3884263,
+      "project": 520367,
+      "file": 3908328,
       "side": "common",
       "locked": false
     }
   ],
   "dependencies": [
     {
-      "project": 404468,
-      "file": 3890141,
+      "project": 531761,
+      "file": 3914527,
       "side": "common",
       "locked": false
     },
     {
       "project": 412525,
-      "file": 3872396,
-      "side": "common",
-      "locked": false
-    },
-    {
-      "project": 419699,
-      "file": 3893635,
-      "side": "common",
-      "locked": false
-    },
-    {
-      "project": 531761,
-      "file": 3901901,
+      "file": 3924623,
       "side": "common",
       "locked": false
     },
     {
       "project": 228525,
-      "file": 3901609,
-      "side": "common",
-      "locked": false
-    },
-    {
-      "project": 242818,
-      "file": 3881465,
-      "side": "common",
-      "locked": false
-    },
-    {
-      "project": 404465,
-      "file": 3890137,
+      "file": 3927538,
       "side": "common",
       "locked": false
     }

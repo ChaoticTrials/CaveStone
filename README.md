@@ -34,17 +34,19 @@ German, but just writing in English is fine)!
 
 ## Need to re-add
 - [Inventory Sorter](https://www.curseforge.com/minecraft/mc-mods/inventory-sorter)
-- [Iron Chests](https://www.curseforge.com/minecraft/mc-mods/iron-chests)
 - [MoreOverlays Updated](https://www.curseforge.com/minecraft/mc-mods/more-overlays-updated)
+- [Spice of Life: Carrot Edition](https://www.curseforge.com/minecraft/mc-mods/spice-of-life-carrot-edition)
 
 ## Waiting for port
 - [AgriCraft](https://www.curseforge.com/minecraft/mc-mods/agricraft)
 - [CobbleForDays](https://www.curseforge.com/minecraft/mc-mods/cobblefordays)
 - [Create](https://www.curseforge.com/minecraft/mc-mods/create)
-- [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight)
 
 ## Not Sure Yet
 - [Dark Utilities](https://www.curseforge.com/minecraft/mc-mods/dark-utilities)
-- [GeOre](https://www.curseforge.com/minecraft/mc-mods/GeOre)
 - [Pipez](https://www.curseforge.com/minecraft/mc-mods/pipez)
 - [Quark](https://www.curseforge.com/minecraft/mc-mods/quark)
+
+
+### NEED TO ADD
+Dripstone
