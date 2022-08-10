@@ -34,7 +34,6 @@ German, but just writing in English is fine)!
 
 ## Need to re-add
 - [Inventory Sorter](https://www.curseforge.com/minecraft/mc-mods/inventory-sorter)
-- [MoreOverlays Updated](https://www.curseforge.com/minecraft/mc-mods/more-overlays-updated)
 - [Spice of Life: Carrot Edition](https://www.curseforge.com/minecraft/mc-mods/spice-of-life-carrot-edition)
 
 ## Waiting for port
@@ -46,7 +45,3 @@ German, but just writing in English is fine)!
 - [Dark Utilities](https://www.curseforge.com/minecraft/mc-mods/dark-utilities)
 - [Pipez](https://www.curseforge.com/minecraft/mc-mods/pipez)
 - [Quark](https://www.curseforge.com/minecraft/mc-mods/quark)
-
-
-### NEED TO ADD
-Dripstone

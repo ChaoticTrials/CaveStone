@@ -46,6 +46,21 @@
         "count": 3
       },
       "maxUses": 5000000
+    },
+    {
+      "buyB": {
+        "item": "minecraft:air",
+        "count": 1
+      },
+      "buy": {
+        "item": "minecraft:diamond",
+        "count": 2
+      },
+      "sell": {
+        "item": "minecraft:pointed_dripstone",
+        "count": 3
+      },
+      "maxUses": 5000000
     }
   ]
 }
