@@ -4,7 +4,7 @@ import shutil
 import subprocess
 import urllib.request
 
-MODLISTCREATOR_VERSION = "4.0.0"
+MODLISTCREATOR_VERSION = "4.0.1"
 OUTPUT_PATH = "changelog"
 
 
