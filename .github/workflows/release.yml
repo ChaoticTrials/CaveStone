@@ -24,15 +24,21 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Make gradlew executable
-        run: 'chmod +x ./gradlew'
+      - name: Set up Python 3.9
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Generate changelog
+        run: 'python scripts/changelogger.py'
 
       - name: Build CurseForge pack
-        run: './gradlew buildCursePack buildServerPack'
+        run: 'chmod +x ./gradlew && ./gradlew buildCursePack buildServerPack'
 
       - name: Upload Release
         uses: ncipollo/release-action@v1
         with:
-          artifacts: 'build/target/*.zip'
           generateReleaseNotes: true
+          bodyFile: 'changelog.md'
+          artifacts: 'build/target/*.zip'
           token: ${{ secrets.GITHUB_TOKEN }}
