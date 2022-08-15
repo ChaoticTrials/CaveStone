@@ -1,15 +1,7 @@
 {
   "criteria": {
     "cobblestone": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:cobblestone"
-            ]
-          }
-        ]
-      },
+      "conditions": {},
       "trigger": "minecraft:inventory_changed"
     }
   },
