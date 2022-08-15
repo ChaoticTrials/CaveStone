@@ -6,6 +6,10 @@
   "filter": {
     "block": [
       {
+        "namespace": "farmersdelight",
+        "path": "advancements/.*"
+      },
+      {
         "namespace": "minecraft",
         "path": "advancements/.*"
       },
