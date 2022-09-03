@@ -32,10 +32,6 @@ German, but just writing in English is fine)!
 
 [![Discord](https://bisecthosting.com/images/CF/CaveStone/BH_CS_Discord.png)](https://melanx.de/discord)
 
-## Need to re-add
-- [Inventory Sorter](https://www.curseforge.com/minecraft/mc-mods/inventory-sorter)
-- [Spice of Life: Carrot Edition](https://www.curseforge.com/minecraft/mc-mods/spice-of-life-carrot-edition)
-
 ## Waiting for port
 - [AgriCraft](https://www.curseforge.com/minecraft/mc-mods/agricraft)
 - [CobbleForDays](https://www.curseforge.com/minecraft/mc-mods/cobblefordays)

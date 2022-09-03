@@ -10,7 +10,7 @@
   "spawn": {
     "name": "Spawn",
     "desc": "This is just the spawn.",
-    "file": "spawn.nbt",
+    "file": "spawn.snbt",
     "spawns": "spawn",
     "direction": "north"
   },
@@ -18,21 +18,21 @@
     {
       "name": "CaveStone",
       "desc": "The default starting room for CaveStone",
-      "file": "cavestone.nbt",
+      "file": "cavestone.snbt",
       "spawns": "default",
       "direction": "south"
     },
     {
       "name": "CaveStone with Campfire (easy)",
       "desc": "The default starting room with an additional Campfire",
-      "file": "cavestone_with_campfire.nbt",
+      "file": "cavestone_with_campfire.snbt",
       "spawns": "default",
       "direction": "south"
     },
     {
       "name": "CaveStone with Crops (easiest)",
       "desc": "The default starting room with a Campfire and some Crops",
-      "file": "cavestone_with_crops.nbt",
+      "file": "cavestone_with_crops.snbt",
       "spawns": "default",
       "direction": "south"
     }
