@@ -29,11 +29,11 @@ jobs:
         with:
           python-version: '3.9'
 
-      - name: Generate changelog
-        run: 'python scripts/changelogger.py'
-
       - name: Build CurseForge pack
         run: 'chmod +x ./gradlew && ./gradlew buildCursePack buildServerPack'
+
+      - name: Generate changelog
+        run: 'python scripts/changelogger.py'
 
       - name: Upload Release
         uses: ncipollo/release-action@v1
