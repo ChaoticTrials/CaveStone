@@ -42,7 +42,7 @@ def copy_export():
         if file.endswith("-curse.zip"):
             print(f"Found {file}")
             shutil.copyfile("build/target/" + file, f"{OUTPUT_PATH}/new.zip")
-        return
+            return
 
 
 def create_changelog():
