@@ -1,9 +1,7 @@
 name: "Test something"
 
 on:
-  push:
-    tags:
-      - '*'
+  push
 
 jobs:
   release:

@@ -71,7 +71,7 @@ def main():
     copy_export()
 
     print("Create the changelog")
-    create_changelog()
+    # create_changelog()
 
 
 if __name__ == "__main__":
