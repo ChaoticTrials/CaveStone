@@ -34,8 +34,6 @@ German, but just writing in English is fine)!
 
 ## Waiting for port
 - [AgriCraft](https://www.curseforge.com/minecraft/mc-mods/agricraft)
-- [CobbleForDays](https://www.curseforge.com/minecraft/mc-mods/cobblefordays)
-- [Create](https://www.curseforge.com/minecraft/mc-mods/create)
 
 ## Not Sure Yet
 - [Dark Utilities](https://www.curseforge.com/minecraft/mc-mods/dark-utilities)
