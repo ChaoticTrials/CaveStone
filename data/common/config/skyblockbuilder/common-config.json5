@@ -21,6 +21,7 @@
     "generationFeatures": {
       "allow_list": true,
       "elements": [
+        "create:zinc_ore",
         "minecraft:amethyst_geode",
         "minecraft:end_spike",
         "minecraft:end_gateway_*",
