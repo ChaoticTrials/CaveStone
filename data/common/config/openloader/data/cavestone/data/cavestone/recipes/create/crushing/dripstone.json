@@ -1,0 +1,20 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "create:asurine"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:dripstone",
+      "count": 3
+    },
+    {
+      "item": "minecraft:dripstone",
+      "count": 2,
+      "chance": 0.6
+    }
+  ],
+  "processingTime": 250
+}

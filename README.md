@@ -36,6 +36,4 @@ German, but just writing in English is fine)!
 - [AgriCraft](https://www.curseforge.com/minecraft/mc-mods/agricraft)
 
 ## Not Sure Yet
-- [Dark Utilities](https://www.curseforge.com/minecraft/mc-mods/dark-utilities)
-- [Pipez](https://www.curseforge.com/minecraft/mc-mods/pipez)
 - [Quark](https://www.curseforge.com/minecraft/mc-mods/quark)

@@ -1,11 +1,10 @@
 {
-  "type": "create:crushing",
+  "type": "create:milling",
   "ingredients": [
     {
       "item": "cavestone:compressed_cobblestone"
     }
   ],
-  "processingTime": 2250,
   "results": [
     {
       "item": "minecraft:gravel",
@@ -16,5 +15,6 @@
       "item": "minecraft:flint",
       "count": 3
     }
-  ]
+  ],
+  "processingTime": 2250
 }
