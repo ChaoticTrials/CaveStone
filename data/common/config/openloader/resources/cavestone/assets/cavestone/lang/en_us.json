@@ -32,5 +32,8 @@
   "cavestone.advancements.quests.hammer.title": "It's hammah time",
   "cavestone.advancements.quests.hammer.desc": "Obtain an hammer to mine faster",
   "cavestone.advancements.quests.storage_network.title": "We're connected",
-  "cavestone.advancements.quests.storage_network.desc": "Build a basic storage network to connect your chests"
+  "cavestone.advancements.quests.storage_network.desc": "Build a basic storage network to connect your chests",
+
+  "cavestone.advancements.quests.challenges.locate_all_caves.title": "Exploring all caves",
+  "cavestone.advancements.quests.challenges.locate_all_caves.desc": "Find all the caves with the different types of resources"
 }

@@ -1,5 +1,5 @@
 {
-  "parent": "cavestone:quests/root",
+  "parent": "cavestone:quests/locate_cavestone_cave",
   "criteria": {
     "cavestone:water_cave": {
       "conditions": {
@@ -117,26 +117,38 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "translate": "cavestone.advancements.quests.locate_cavestone_cave.desc"
+      "translate": "cavestone.advancements.quests.challenges.locate_all_caves.desc"
     },
-    "frame": "task",
+    "frame": "challenge",
     "hidden": false,
     "icon": {
-      "item": "minecraft:big_dripleaf"
+      "item": "minecraft:small_dripleaf"
     },
     "show_toast": true,
     "title": {
-      "translate": "cavestone.advancements.quests.locate_cavestone_cave.title"
+      "translate": "cavestone.advancements.quests.challenges.locate_all_caves.title"
     }
   },
   "requirements": [
     [
-      "cavestone:water_cave",
-      "cavestone:water_cave_birch",
-      "cavestone:water_cave_dark_oak",
-      "cavestone:water_cave_desert",
-      "cavestone:water_cave_jungle",
-      "cavestone:water_cave_spruce",
+      "cavestone:water_cave"
+    ],
+    [
+      "cavestone:water_cave_birch"
+    ],
+    [
+      "cavestone:water_cave_dark_oak"
+    ],
+    [
+      "cavestone:water_cave_desert"
+    ],
+    [
+      "cavestone:water_cave_jungle"
+    ],
+    [
+      "cavestone:water_cave_spruce"
+    ],
+    [
       "cavestone:water_cave_swamp"
     ]
   ]
