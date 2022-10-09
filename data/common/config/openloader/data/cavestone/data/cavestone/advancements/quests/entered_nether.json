@@ -20,7 +20,7 @@
     },
     "show_toast": true,
     "title": {
-      "translate": "cavestone.advancements.quests.enter_nether.desc"
+      "translate": "cavestone.advancements.quests.enter_nether.title"
     }
   },
   "requirements": [
