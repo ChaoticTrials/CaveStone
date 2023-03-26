@@ -54,6 +54,21 @@ def create_changelog():
     )
 
 
+def append_modlist():
+    subprocess.check_call(
+        ["java", "-jar", f"{OUTPUT_PATH}/mlc.jar", "modlist",
+         "--no-header",
+         "--output", "./modlist.md",
+         f"{OUTPUT_PATH}/new.zip"]
+    )
+    with open("./modlist.md", "r", encoding="utf-8") as f:
+        modlist = f.read()
+
+    with open("./changelog.md", "a", encoding="utf-8") as f:
+        f.write("# Modlist\n\n")
+        f.write(modlist)
+
+
 def main():
     print("Create paths")
     create_paths()
@@ -72,6 +87,9 @@ def main():
 
     print("Create the changelog")
     create_changelog()
+
+    print("Appending modlist to changelog")
+    append_modlist()
 
 
 if __name__ == "__main__":
