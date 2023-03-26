@@ -1,0 +1,47 @@
+{
+  "parent": "cavestone:quests/root",
+  "criteria": {
+    "minecraft:ancient_city": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:ancient_city"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "cavestone.advancements.quests.locate_ancient_city.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:big_dripleaf"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "cavestone.advancements.quests.locate_ancient_city.title"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:ancient_city"
+    ]
+  ],
+  "rewards":{
+    "experience": 69,
+    "loot": [
+      "cavestone:generic/ancient_city"
+    ]
+  }
+}

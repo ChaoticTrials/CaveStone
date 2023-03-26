@@ -36,6 +36,8 @@
   "cavestone.advancements.quests.hammer.desc": "Obtain an hammer to mine faster",
   "cavestone.advancements.quests.storage_network.title": "We're connected",
   "cavestone.advancements.quests.storage_network.desc": "Build a basic storage network to connect your chests",
+  "cavestone.advancements.quests.locate_ancient_city.title": "Old but gold",
+  "cavestone.advancements.quests.locate_ancient_city.desc": "In an ancient city there are ancient things such as... my last shower",
 
   "cavestone.advancements.quests.challenges.locate_all_caves.title": "Exploring all caves",
   "cavestone.advancements.quests.challenges.locate_all_caves.desc": "Find all the caves with the different types of resources"
