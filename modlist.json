@@ -5,86 +5,14 @@
   "minecraft": "1.19.2",
   "installed": [
     {
-      "project": 252848,
-      "file": 3923765,
-      "side": "common",
-      "locked": false
-    },
-    {
       "project": 277616,
       "file": 3974155,
       "side": "common",
       "locked": false
     },
     {
-      "project": 250419,
-      "file": 4014279,
-      "side": "common",
-      "locked": false
-    },
-    {
-      "project": 238222,
-      "file": 3969039,
-      "side": "common",
-      "locked": false
-    },
-    {
-      "project": 557696,
-      "file": 3952368,
-      "side": "common",
-      "locked": false
-    },
-    {
-      "project": 482123,
-      "file": 3920029,
-      "side": "common",
-      "locked": false
-    },
-    {
-      "project": 60089,
-      "file": 3871353,
-      "side": "common",
-      "locked": false
-    },
-    {
-      "project": 240633,
-      "file": 3963662,
-      "side": "common",
-      "locked": false
-    },
-    {
-      "project": 373014,
-      "file": 3906118,
-      "side": "client",
-      "locked": false
-    },
-    {
-      "project": 446691,
-      "file": 4021138,
-      "side": "common",
-      "locked": false
-    },
-    {
-      "project": 414640,
-      "file": 3879792,
-      "side": "common",
-      "locked": false
-    },
-    {
-      "project": 233071,
-      "file": 3914007,
-      "side": "common",
-      "locked": false
-    },
-    {
-      "project": 237701,
-      "file": 3900864,
-      "side": "client",
-      "locked": false
-    },
-    {
-      "project": 274259,
-      "file": 3885508,
+      "project": 250398,
+      "file": 4050343,
       "side": "common",
       "locked": false
     },
@@ -95,8 +23,8 @@
       "locked": false
     },
     {
-      "project": 324717,
-      "file": 4010505,
+      "project": 482123,
+      "file": 4458126,
       "side": "common",
       "locked": false
     },
@@ -107,8 +35,80 @@
       "locked": false
     },
     {
-      "project": 541617,
-      "file": 3994116,
+      "project": 463703,
+      "file": 4446311,
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": 60089,
+      "file": 3871353,
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": 354339,
+      "file": 3943067,
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": 316582,
+      "file": 3920717,
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": 240633,
+      "file": 3963662,
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": 256717,
+      "file": 4153347,
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": 414640,
+      "file": 3879792,
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": 252848,
+      "file": 4118390,
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": 241895,
+      "file": 4440432,
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": 268495,
+      "file": 4361519,
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": 237701,
+      "file": 4408013,
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": 361276,
+      "file": 4179721,
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": 238222,
+      "file": 4434397,
       "side": "common",
       "locked": false
     },
@@ -125,20 +125,50 @@
       "locked": false
     },
     {
-      "project": 650573,
-      "file": 3968362,
+      "project": 446691,
+      "file": 4451981,
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": 233071,
+      "file": 4412675,
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": 250419,
+      "file": 4277356,
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": 557696,
+      "file": 3952368,
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": 324717,
+      "file": 4433884,
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": 701347,
+      "file": 4083273,
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": 636608,
+      "file": 4428265,
       "side": "common",
       "locked": false
     },
     {
       "project": 248787,
       "file": 3872808,
-      "side": "common",
-      "locked": false
-    },
-    {
-      "project": 361276,
-      "file": 3891821,
       "side": "common",
       "locked": false
     },
@@ -155,50 +185,26 @@
       "locked": false
     },
     {
-      "project": 583228,
-      "file": 3971337,
-      "side": "common",
-      "locked": false
-    },
-    {
-      "project": 268495,
-      "file": 3914635,
-      "side": "common",
-      "locked": false
-    },
-    {
-      "project": 250398,
-      "file": 3950211,
-      "side": "common",
-      "locked": false
-    },
-    {
       "project": 245755,
-      "file": 3901921,
+      "file": 4442313,
       "side": "common",
       "locked": false
     },
     {
-      "project": 610058,
-      "file": 4009742,
+      "project": 583228,
+      "file": 4441019,
       "side": "common",
       "locked": false
     },
     {
-      "project": 256717,
-      "file": 3950216,
+      "project": 541617,
+      "file": 4445835,
       "side": "common",
       "locked": false
     },
     {
-      "project": 463703,
-      "file": 4017778,
-      "side": "common",
-      "locked": false
-    },
-    {
-      "project": 328085,
-      "file": 4011414,
+      "project": 274259,
+      "file": 4375891,
       "side": "common",
       "locked": false
     },
@@ -215,46 +221,46 @@
       "locked": false
     },
     {
-      "project": 354339,
-      "file": 3943067,
+      "project": 328085,
+      "file": 4371809,
       "side": "common",
       "locked": false
     },
     {
-      "project": 636608,
-      "file": 4021644,
+      "project": 650573,
+      "file": 4417037,
       "side": "common",
       "locked": false
     },
     {
-      "project": 241895,
-      "file": 3927984,
+      "project": 610058,
+      "file": 4419951,
       "side": "common",
       "locked": false
     },
     {
-      "project": 316582,
-      "file": 3920717,
-      "side": "common",
+      "project": 373014,
+      "file": 3906118,
+      "side": "client",
       "locked": false
     }
   ],
   "dependencies": [
     {
       "project": 531761,
-      "file": 3914527,
+      "file": 4442591,
       "side": "common",
       "locked": false
     },
     {
       "project": 412525,
-      "file": 3968208,
+      "file": 4052778,
       "side": "common",
       "locked": false
     },
     {
       "project": 228525,
-      "file": 3964325,
+      "file": 4426591,
       "side": "common",
       "locked": false
     }
