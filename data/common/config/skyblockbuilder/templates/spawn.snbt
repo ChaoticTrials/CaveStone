@@ -992,7 +992,7 @@
         {pos: [9, 3, 18], state: "minecraft:bedrock"},
         {pos: [10, 3, 0], state: "minecraft:bedrock"},
         {pos: [10, 3, 1], state: "minecraft:black_concrete"},
-        {pos: [10, 3, 2], state: "minecraft:oak_wall_sign{facing:east,waterlogged:false}", nbt: {Color: "black", GlowingText: 0b, Text1: '{"text":""}', Text2: '{"text":"Create own team"}', Text3: '{"text":"/skyblock gui"}', Text4: '{"text":""}', id: "minecraft:sign"}},
+        {pos: [10, 3, 2], state: "minecraft:oak_wall_sign{facing:east,waterlogged:false}", nbt: {Color: "black", GlowingText: 0b, Text1: '{"text":""}', Text2: '{"translate":"cavestone.sign.create_team"}', Text3: '{"text":"/skyblock gui"}', Text4: '{"text":""}', id: "minecraft:sign"}},
         {pos: [10, 3, 3], state: "minecraft:black_concrete"},
         {pos: [10, 3, 4], state: "minecraft:stone"},
         {pos: [10, 3, 5], state: "minecraft:stone"},
@@ -1035,7 +1035,7 @@
         {pos: [12, 3, 4], state: "minecraft:air"},
         {pos: [12, 3, 5], state: "minecraft:mangrove_door{facing:west,half:upper,hinge:left,open:false,powered:false}"},
         {pos: [12, 3, 6], state: "minecraft:air"},
-        {pos: [12, 3, 7], state: "minecraft:air"},
+        {pos: [12, 3, 7], state: "minecraft:oak_wall_sign{facing:west,waterlogged:false}", nbt: {Color: "black", GlowingText: 0b, Text1: '{"text":""}', Text2: '{"translate":"cavestone.sign.this_way"}', Text3: '{"text":"<-----"}', Text4: '{"text":""}', id: "minecraft:sign"}},
         {pos: [12, 3, 8], state: "minecraft:air"},
         {pos: [12, 3, 9], state: "minecraft:air"},
         {pos: [12, 3, 10], state: "minecraft:air"},
@@ -2952,6 +2952,7 @@
         "minecraft:stone_slab{type:top,waterlogged:false}",
         "minecraft:lantern{hanging:true,waterlogged:false}",
         "minecraft:chain{axis:y,waterlogged:false}",
-        "minecraft:oak_wall_sign{facing:east,waterlogged:false}"
+        "minecraft:oak_wall_sign{facing:east,waterlogged:false}",
+        "minecraft:oak_wall_sign{facing:west,waterlogged:false}"
     ]
 }

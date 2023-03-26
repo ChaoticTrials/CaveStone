@@ -5,6 +5,9 @@
 
   "entity.cavestone.stonemason": "Stonemason",
 
+  "cavestone.sign.this_way": "This way",
+  "cavestone.sign.create_team": "Create own team",
+
   "block.cavestone.compressed_cobblestone": "Compressed Cobblestone",
   "block.cavestone.double_compressed_cobblestone": "Double Compressed Cobblestone",
   "block.cavestone.compressed_cobbled_deepslate": "Compressed Cobbled Deepslate",
