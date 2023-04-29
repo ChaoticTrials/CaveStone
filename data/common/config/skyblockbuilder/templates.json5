@@ -4,7 +4,7 @@
       [ 5, 1, 1 ]
     ],
     "spawn": [
-      [ 7, 2, 12 ]
+      [ 6, 2, 11 ]
     ]
   },
   "spawn": {
@@ -12,7 +12,17 @@
     "desc": "This is just the spawn.",
     "file": "spawn.snbt",
     "spawns": "spawn",
-    "direction": "north"
+    "direction": "north",
+    "surroundingBlocks": "spawn",
+    "surroundingMargin": 1
+  },
+  "surroundingBlocks": {
+    "spawn": [
+      "minecraft:bedrock"
+    ],
+    "cave": [
+      "minecraft:stone"
+    ]
   },
   "templates": [
     {
@@ -20,21 +30,27 @@
       "desc": "The default starting room for CaveStone",
       "file": "cavestone.snbt",
       "spawns": "default",
-      "direction": "south"
+      "direction": "south",
+      "surroundingBlocks": "cave",
+      "surroundingMargin": 1
     },
     {
       "name": "CaveStone with Campfire (easy)",
       "desc": "The default starting room with an additional Campfire",
       "file": "cavestone_with_campfire.snbt",
       "spawns": "default",
-      "direction": "south"
+      "direction": "south",
+      "surroundingBlocks": "cave",
+      "surroundingMargin": 1
     },
     {
       "name": "CaveStone with Crops (easiest)",
       "desc": "The default starting room with a Campfire and some Crops",
       "file": "cavestone_with_crops.snbt",
       "spawns": "default",
-      "direction": "south"
+      "direction": "south",
+      "surroundingBlocks": "cave",
+      "surroundingMargin": 1
     }
   ]
 }
