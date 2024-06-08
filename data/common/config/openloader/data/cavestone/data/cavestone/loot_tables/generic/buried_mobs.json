@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:empty",
+  "pools": [
+    {
+      "entries": [
+        {
+          "expand": true,
+          "name": "packessentials:buried_mobs/common",
+          "type": "minecraft:tag",
+          "weight": 45
+        },
+        {
+          "expand": true,
+          "name": "packessentials:buried_mobs/uncommon",
+          "type": "minecraft:tag",
+          "weight": 25
+        },
+        {
+          "expand": true,
+          "name": "packessentials:buried_mobs/rare",
+          "type": "minecraft:tag",
+          "weight": 5
+        },
+        {
+          "expand": true,
+          "name": "packessentials:buried_mobs/epic",
+          "type": "minecraft:tag",
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/sniffer_digging"
+}

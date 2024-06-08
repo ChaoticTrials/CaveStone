@@ -1,0 +1,144 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "cave0": {
+      "icon": {
+        "item": {
+          "id": "minecraft:oak_sapling",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "predicate": {
+        "spreads": "water_cave"
+      },
+      "type": "skyblockbuilder:spread_location"
+    },
+    "cave1": {
+      "icon": {
+        "item": {
+          "id": "minecraft:birch_sapling",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "predicate": {
+        "spreads": "water_cave_birch"
+      },
+      "type": "skyblockbuilder:spread_location"
+    },
+    "cave2": {
+      "icon": {
+        "item": {
+          "id": "minecraft:cherry_sapling",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "predicate": {
+        "spreads": "water_cave_cherry"
+      },
+      "type": "skyblockbuilder:spread_location"
+    },
+    "cave3": {
+      "icon": {
+        "item": {
+          "id": "minecraft:dark_oak_sapling",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "predicate": {
+        "spreads": "water_cave_dark_oak"
+      },
+      "type": "skyblockbuilder:spread_location"
+    },
+    "cave4": {
+      "icon": {
+        "item": {
+          "id": "minecraft:acacia_sapling",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "predicate": {
+        "spreads": "water_cave_desert"
+      },
+      "type": "skyblockbuilder:spread_location"
+    },
+    "cave5": {
+      "icon": {
+        "item": {
+          "id": "minecraft:jungle_sapling",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "predicate": {
+        "spreads": "water_cave_jungle"
+      },
+      "type": "skyblockbuilder:spread_location"
+    },
+    "cave6": {
+      "icon": {
+        "item": {
+          "id": "minecraft:spruce_sapling",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "predicate": {
+        "spreads": "water_cave_spruce"
+      },
+      "type": "skyblockbuilder:spread_location"
+    },
+    "cave7": {
+      "icon": {
+        "item": {
+          "id": "minecraft:mangrove_propagule",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "predicate": {
+        "spreads": "water_cave_swamp"
+      },
+      "type": "skyblockbuilder:spread_location"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "cavestone.quests.main.locate_all_caves.desc"
+    },
+    "description": [
+      "<text><translate>cavestone.quests.main.locate_all_caves.explanation</translate></text>"
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -435,
+          -200
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:small_dripleaf",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "cavestone.quests.main.locate_all_caves"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

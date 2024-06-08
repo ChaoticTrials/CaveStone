@@ -1,0 +1,78 @@
+{
+  "dependencies": [
+    "locate_ruined_portal"
+  ],
+  "tasks": {
+    "travel_to_nether": {
+      "icon": {
+        "item": {
+          "id": "minecraft:red_nether_bricks",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "from": "minecraft:overworld",
+      "to": "minecraft:the_nether",
+      "type": "heracles:changed_dimension"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:experience_bottle",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 69,
+      "type": "heracles:xp"
+    },
+    "secret_map": {
+      "icon": {
+        "item": {
+          "id": "minecraft:filled_map",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "loot_table": "cavestone:generic/fortress",
+      "type": "heracles:loottable"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "cavestone.quests.main.entered_nether.desc"
+    },
+    "description": [
+      "<text><translate>cavestone.quests.main.entered_nether.explanation</translate></text>"
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -380,
+          -115
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:red_nether_bricks",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "cavestone.quests.main.entered_nether"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "biomes": {
+    "minecraft:overworld": {
+      "allow_list": false,
+      "elements": [
+        "minecraft:*ocean*"
+      ]
+    },
+    "minecraft:the_nether": {
+      "allow_list": false,
+      "elements": []
+    }
+  },
+  "surface": true,
+  "surfaceSettings": {
+    "minecraft:overworld": "minecraft:bedrock,63*minecraft:deepslate,319*minecraft:stone,minecraft:bedrock",
+    "minecraft:the_nether": "minecraft:bedrock,254*minecraft:netherrack,minecraft:bedrock",
+    "minecraft:the_end": ""
+  }
+}

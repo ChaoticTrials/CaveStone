@@ -1,0 +1,10 @@
+{
+  "spawnProtectionRadius": 4,
+  "interactionEntitiesInSpawnProtection": {
+    "allow_list": true,
+    "elements": [
+      "corpse:corpse",
+      "datatrader:new_data_trader"
+    ]
+  }
+}

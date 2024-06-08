@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "locate_ruined_portal"
+  ],
+  "tasks": {
+    "stronghold": {
+      "icon": {
+        "item": {
+          "id": "minecraft:end_portal_frame",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "structures": "minecraft:stronghold",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 420,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "cavestone.quests.main.locate_stronghold.desc"
+    },
+    "description": [
+      "<text><translate>cavestone.quests.main.locate_stronghold.explanation</translate></text>"
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -320,
+          -115
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:end_portal_frame",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "cavestone.quests.main.locate_stronghold"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

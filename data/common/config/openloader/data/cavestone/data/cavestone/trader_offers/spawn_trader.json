@@ -1,0 +1,42 @@
+{
+  "Offers": [
+    {
+      "buy": {
+        "item": "minecraft:diamond",
+        "count": 7
+      },
+      "sell": {
+        "item": "simplytools:stone_hammer",
+        "nbt": "{\"Enchantments\":[{\"lvl\":5,\"id\":\"minecraft:efficiency\"},{\"lvl\":10,\"id\":\"minecraft:unbreaking\"}]}"
+      }
+    },
+    {
+      "buy": {
+        "item": "packessentials:compressed_cobblestone"
+      },
+      "sell": {
+        "item": "minecraft:gravel",
+        "count": 3
+      }
+    },
+    {
+      "buy": {
+        "item": "packessentials:compressed_cobblestone"
+      },
+      "sell": {
+        "item": "minecraft:sand",
+        "count": 3
+      }
+    },
+    {
+      "buy": {
+        "item": "minecraft:diamond",
+        "count": 2
+      },
+      "sell": {
+        "item": "minecraft:pointed_dripstone",
+        "count": 3
+      }
+    }
+  ]
+}

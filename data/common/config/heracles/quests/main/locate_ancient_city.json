@@ -1,0 +1,68 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "ancient_city": {
+      "icon": {
+        "item": {
+          "id": "minecraft:sculk_shrieker",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "structures": "minecraft:ancient_city",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "LEVEL",
+      "amount": 42,
+      "type": "heracles:xp"
+    },
+    "loot": {
+      "icon": {
+        "item": {
+          "id": "minecraft:filled_map",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "loot_table": "cavestone:generic/ancient_city",
+      "type": "heracles:loottable"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "cavestone.quests.main.locate_ancient_city.desc"
+    },
+    "description": [
+      "<text><translate>cavestone.quests.main.locate_ancient_city.explanation</translate></text>"
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -400,
+          -200
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:sculk_shrieker",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "cavestone.quests.main.locate_ancient_city"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

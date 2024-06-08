@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:archaeology",
+  "random_sequence": "cavestone:suspicious_gravel",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "cavestone:generic/buried_mobs"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "cavestone:suspicious_gravel/vanilla_merged",
+          "weight": 3
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

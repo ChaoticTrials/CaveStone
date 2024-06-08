@@ -1,0 +1,48 @@
+buildscript {
+    repositories {
+        maven { url = 'https://maven.minecraftforge.net/' }
+        maven { url = 'https://libraries.minecraft.net/' }
+        maven { url = 'https://maven.parchmentmc.org/' }
+        maven { url = 'https://plugins.gradle.org/m2/' }
+        maven { url = 'https://maven.moddingx.org' }
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:6.0.11'
+        classpath 'org.moddingx:PackDev:1.0.6'
+    }
+}
+
+plugins {
+    id 'com.modrinth.minotaur' version '2.+'
+}
+apply plugin: 'net.minecraftforge.gradle'
+apply plugin: 'org.moddingx.packdev'
+
+modpack {
+    loader '47.2.0'
+    author 'MelanX'
+    targets {
+        modrinth()
+        server()
+    }
+}
+
+// https://github.com/modrinth/minotaur
+modrinth {
+    token = System.getenv('MODRINTH_TOKEN')
+    projectId = '3HsvIkiC'
+    versionType = 'beta'
+    gameVersions = ['1.20.1']
+    loaders = ['forge']
+    if (project.file('changelog.md').exists()) {
+        changelog = project.file('changelog.md').getText('UTF-8')
+    }
+    uploadFile = project.file("build/target/${project.name}-${project.version}-modrinth.mrpack")
+    debugMode = true
+}
+
+tasks.modrinth.doLast {
+    if (!modrinth.debugMode && tasks.modrinth.newVersion != null) println tasks.modrinth.newVersion.getId()
+}

@@ -1,0 +1,322 @@
+{
+  "api": 2,
+  "platform": "modrinth",
+  "loader": "forge",
+  "minecraft": "1.20.1",
+  "installed": [
+    {
+      "project": "EsAfCjCV",
+      "file": "XdXDExVF",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "joEfVgkn",
+      "file": "edGQD16r",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "v7uAVl86",
+      "file": "gzZeeOE7",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "bb2EpKpx",
+      "file": "r0eKAc5z",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "WN2YCymY",
+      "file": "epLZq3Jv",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "UVtY3ZAC",
+      "file": "zzrCQ69V",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "uEfK2CXF",
+      "file": "jW52tbTk",
+      "side": "client",
+      "locked": false
+    },
+    {
+      "project": "yjvKidNM",
+      "file": "7MqyU696",
+      "side": "client",
+      "locked": false
+    },
+    {
+      "project": "DMu0oBKf",
+      "file": "nb8FNUFo",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "Q2OqKxDG",
+      "file": "vhpXnjE2",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "LNytGWDc",
+      "file": "HNYrbfZZ",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "fEWKxVzh",
+      "file": "vtGe3auv",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "No1xZeN1",
+      "file": "OO8X230V",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "fzSKSXVK",
+      "file": "ySfrr3vn",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "LOpKHB2A",
+      "file": "TlRV5nuf",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "vJnhuDde",
+      "file": "MQJIESsA",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "uy4Cnpcm",
+      "file": "rvUsKoQu",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "u86oU2cO",
+      "file": "GZ9QNR3i",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "KwWsINvD",
+      "file": "hzFgmbGN",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "u1aDdOsQ",
+      "file": "KI7f8OkE",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "jSQXzmcf",
+      "file": "4HT3hgJf",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "P3iIrPH3",
+      "file": "YjbOtYwN",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "B7NPvScT",
+      "file": "5gL5RjlP",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "u7CFIOJ1",
+      "file": "ZfQmT7WH",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "Fnrzx9Jl",
+      "file": "x8LSejaq",
+      "side": "server",
+      "locked": false
+    },
+    {
+      "project": "kZvO1mDq",
+      "file": "2VytoA5j",
+      "side": "client",
+      "locked": false
+    },
+    {
+      "project": "WrpuIfhw",
+      "file": "x5gi94YI",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "XZNI4Cpy",
+      "file": "MiLXJHWR",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "JmybsfWs",
+      "file": "4zjj5Jhw",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "BbrHg80P",
+      "file": "pTEnM5jC",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "lo90fZoB",
+      "file": "9ZUSHiZa",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "por2AZc5",
+      "file": "afVts0ej",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "3Gdi7Qgq",
+      "file": "h2yHRuAQ",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "7uh75ruZ",
+      "file": "aG4T8pjo",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "fPetb5Kh",
+      "file": "Og40jCNX",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "K8pn1qHf",
+      "file": "k9Al7fqq",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "P4FVY4ll",
+      "file": "YznbGnc8",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "EltpO5cN",
+      "file": "ZqSHctHT",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "u6dRKJwZ",
+      "file": "RqMCH4KZ",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "qc0LobOe",
+      "file": "wr9fhnQL",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "Wnxd13zP",
+      "file": "nAHGB5ls",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "R2OftAxM",
+      "file": "AxgOboGq",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "xv94TkTM",
+      "file": "LH6Bi6Am",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "guitPqEi",
+      "file": "HxmL9PcX",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "aC3cM3Vq",
+      "file": "7JVXOe3K",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "MMMWYsjm",
+      "file": "YdtOoIvt",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "nvQzSEkH",
+      "file": "NruPjXIH",
+      "side": "common",
+      "locked": false
+    }
+  ],
+  "dependencies": [
+    {
+      "project": "2gq0ALnz",
+      "file": "en274HWr",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "G1hIVOrD",
+      "file": "XO3P1hbK",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "MBAkmtvl",
+      "file": "sMLLTEoG",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "fuuu3xnx",
+      "file": "PM9yAW1G",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "qEH6GYul",
+      "file": "YHTMDq85",
+      "side": "common",
+      "locked": false
+    }
+  ]
+}

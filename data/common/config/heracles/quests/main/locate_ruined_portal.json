@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "root"
+  ],
+  "tasks": {
+    "ruined_portal": {
+      "icon": {
+        "item": {
+          "id": "minecraft:crying_obsidian",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "structures": "#minecraft:ruined_portal",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "42": {
+      "icon": {
+        "item": {
+          "id": "minecraft:experience_bottle",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 42,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "cavestone.quests.main.locate_ruined_portal.desc"
+    },
+    "description": [
+      "<text><translate>cavestone.quests.main.locate_ruined_portal.explanation</translate></text>"
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -350,
+          -155
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:nether_quartz_ore",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "cavestone.quests.main.locate_ruined_portal"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "lava"
+  ],
+  "tasks": {
+    "scorchia": {
+      "type": "heracles:item",
+      "item": "create:scorchia",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "icon": {
+        "item": {
+          "id": "create:scorchia",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "cavestone.quests.create.hot_chocolate_to_scorchia.desc"
+    },
+    "description": [
+      "<img src=\"cavestone:textures/quests/liquid_interactions/hot_chocolate_to_scorchia.png\" width=\"192\" height=\"101\"></img>",
+      "<text><translate>cavestone.quests.create.hot_chocolate_to_scorchia.explanation</translate></text>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -122,
+          -77
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:scorchia",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "cavestone.quests.create.hot_chocolate_to_scorchia"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

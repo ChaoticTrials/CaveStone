@@ -1,0 +1,31 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "packessentials:double_compressed_cobblestone"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:gravel",
+      "count": 64
+    },
+    {
+      "chance": 0.3,
+      "item": "minecraft:flint",
+      "count": 8
+    },
+    {
+      "chance": 0.15,
+      "item": "minecraft:flint",
+      "count": 16
+    },
+    {
+      "chance": 0.1,
+      "item": "minecraft:suspicious_gravel",
+      "nbt": "{BlockEntityTag:{LootTable:\"cavestone:suspicious_gravel\"}}",
+      "count": 16
+    }
+  ],
+  "processingTime": 2250
+}

@@ -1,0 +1,63 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "fridge": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:fridge",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "snow": {
+      "type": "heracles:item",
+      "item": "minecraft:snowball",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "powder_snow": {
+      "item": {
+        "id": "minecraft:powder_snow_bucket",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "cavestone.quests.main.snow.desc"
+    },
+    "description": [
+      "<text><translate>cavestone.quests.main.snow.explanation</translate></text>"
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -300,
+          -200
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:snowball",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "cavestone.quests.main.snow"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

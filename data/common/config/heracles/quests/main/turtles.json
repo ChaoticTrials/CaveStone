@@ -1,0 +1,57 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "turtle_egg": {
+      "type": "heracles:item",
+      "item": "minecraft:turtle_egg",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "turtle_helmet": {
+      "item": {
+        "id": "minecraft:turtle_helmet",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "cavestone.quests.main.turtles.desc"
+    },
+    "description": [
+      "<text><translate>cavestone.quests.main.turtles.explanation</translate></text>"
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -265,
+          -200
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:turtle_egg",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "cavestone.quests.main.turtles"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

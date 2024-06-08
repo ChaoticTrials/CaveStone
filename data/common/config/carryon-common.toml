@@ -1,0 +1,15 @@
+[blacklist]
+	#Blocks that cannot be picked up
+	forbiddenTiles = ["minecraft:spawner",
+	    # Default important entries
+	    "#forge:immovable", "#forge:relocation_not_supported",
+	    "minecraft:end_portal", "minecraft:piston_head", "minecraft:end_gateway", "minecraft:tall_grass",
+	    "minecraft:large_fern", "minecraft:peony", "minecraft:rose_bush", "minecraft:lilac", "minecraft:sunflower",
+	    "minecraft:*_bed", "minecraft:*_door", "minecraft:big_dripleaf_stem", "minecraft:waterlily", "minecraft:cake",
+	    "minecraft:nether_portal", "minecraft:tall_seagrass",
+	    "cookingforblockheads:cabinet", "cookingforblockheads:corner", "cookingforblockheads:counter",
+        "cookingforblockheads:oven", "cookingforblockheads:toaster", "cookingforblockheads:milk_jar",
+        "cookingforblockheads:cow_jar", "cookingforblockheads:fruit_basket", "cookingforblockheads:cooking_table",
+        "cookingforblockheads:fridge", "cookingforblockheads:sink",
+	    "quark:colored_bed_*", "storagedrawers:framingtable", "enderstorage:*", "create:*", "waystones:*"
+	]

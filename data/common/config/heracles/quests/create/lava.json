@@ -1,0 +1,67 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "condense_milk": {
+      "type": "heracles:item",
+      "item": "create_dd:condense_milk_bucket",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "icon": {
+        "item": {
+          "id": "create_dd:condense_milk_bucket",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "lava_bucket": {
+      "type": "heracles:item",
+      "item": "minecraft:lava_bucket",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "icon": {
+        "item": {
+          "id": "minecraft:lava_bucket",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "cavestone.quests.create.lava.desc"
+    },
+    "description": [
+      "<img src=\"create_dd:textures/font/logo.png\"></img>",
+      "<text><translate>cavestone.quests.create.lava.explanation</translate></text>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -150,
+          -161
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:lava_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "cavestone.quests.create.lava"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

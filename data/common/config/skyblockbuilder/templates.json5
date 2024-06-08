@@ -1,0 +1,116 @@
+{
+  "spawn": {
+    "name": "Spawn",
+    "desc": "This is just the spawn.",
+    "file": "spawn.snbt",
+    "spawns": "spawn",
+    "direction": "south",
+    "surroundingBlocks": "spawn",
+    "surroundingMargin": 1
+  },
+
+  "spawns": {
+    "default": {
+      "north": [],
+      "east": [],
+      "south": [
+        [ 5, 2, 1 ]
+      ],
+      "west": []
+    },
+    "spawn": {
+      "north": [],
+      "east": [],
+      "south": [
+        [ 13, 8, 4 ]
+      ],
+      "west": []
+    }
+  },
+
+  "templates": [
+    {
+      "name": "{cavestone.templates.default}",
+      "desc": "{cavestone.templates.default.desc}",
+      "file": "cavestone.snbt",
+      "spawns": "default",
+      "spreads": "cave",
+      "surroundingBlocks": "cave",
+      "surroundingMargin": 1
+    },
+    {
+      "name": "{cavestone.templates.easy}",
+      "desc": "{cavestone.templates.easy.desc}",
+      "file": "cavestone_with_campfire.snbt",
+      "spawns": "default",
+      "spreads": "cave",
+      "surroundingBlocks": "cave",
+      "surroundingMargin": 1
+    },
+    {
+      "name": "{cavestone.templates.easiest}",
+      "desc": "{cavestone.templates.easiest.desc}",
+      "file": "cavestone_with_crops.snbt",
+      "spawns": "default",
+      "spreads": "cave",
+      "surroundingBlocks": "cave",
+      "surroundingMargin": 1
+    }
+  ],
+
+  "spreads": {
+    "cave": [
+      {
+        "file": "water_cave.snbt",
+        "offset": [100, -1,  0]
+      },
+      {
+        "file": "water_cave_birch.snbt",
+        "offset": [71, -1,  71]
+      },
+      {
+        "file": "water_cave_cherry.snbt",
+        "offset": [0, -1,  100]
+      },
+      {
+        "file": "water_cave_dark_oak.snbt",
+        "offset": [-71, -1,  71]
+      },
+      {
+        "file": "water_cave_desert.snbt",
+        "offset": [-100, -1,  0]
+      },
+      {
+        "file": "water_cave_jungle.snbt",
+        "offset": [-71, -1,  -71]
+      },
+      {
+        "file": "water_cave_spruce.snbt",
+        "offset": [0, -1,  -100]
+      },
+      {
+        "file": "water_cave_swamp.snbt",
+        "offset": [71, -1,  -71]
+      },
+      {
+        "file": "spawner_room.snbt",
+        "minOffset": [-10, -50, -10],
+        "maxOffset": [15, -40, 15]
+      },
+      {
+        "file": "spawner_room_deepslate.snbt",
+        "minOffset": [-20, -125, -20],
+        "maxOffset": [30, -110, 30]
+      }
+    ]
+  },
+
+  "surroundingBlocks": {
+    "spawn": [
+      "minecraft:bedrock"
+    ],
+    "cave": [
+      "minecraft:stone"
+    ]
+  }
+}

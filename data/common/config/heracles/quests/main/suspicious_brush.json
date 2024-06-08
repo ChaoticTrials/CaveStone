@@ -1,0 +1,57 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "sussy": {
+      "type": "heracles:item",
+      "item": "minecraft:suspicious_gravel",
+      "amount": 1,
+      "collection": "MANUAL"
+    }
+  },
+  "rewards": {
+    "brush": {
+      "item": {
+        "id": "packessentials:ancient_brush",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "cavestone.quests.main.suspicious_brush.desc"
+    },
+    "description": [
+      "<text><translate>cavestone.quests.main.suspicious_brush.explanation</translate></text>"
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -470,
+          -200
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:suspicious_gravel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "cavestone.quests.main.suspicious_brush"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": true,
+    "individual_progress": true,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ili",
+    "ili",
+    " i "
+  ],
+  "key": {
+    "l": {
+      "tag": "minecraft:logs"
+    },
+    "i": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "result": {
+    "item": "minecraft:hopper"
+  }
+}

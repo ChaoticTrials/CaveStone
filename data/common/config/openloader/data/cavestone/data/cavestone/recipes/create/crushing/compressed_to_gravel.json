@@ -1,0 +1,26 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "packessentials:compressed_cobblestone"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:gravel",
+      "count": 7
+    },
+    {
+      "chance": 0.3,
+      "item": "minecraft:flint",
+      "count": 3
+    },
+    {
+      "chance": 0.1,
+      "item": "minecraft:suspicious_gravel",
+      "nbt": "{BlockEntityTag:{LootTable:\"cavestone:suspicious_gravel\"}}",
+      "count": 2
+    }
+  ],
+  "processingTime": 2250
+}

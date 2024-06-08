@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "root"
+  ],
+  "tasks": {
+    "hammers": {
+      "type": "heracles:item",
+      "item": "#cavestone:hammers",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "cavestone.quests.main.hammer.desc"
+    },
+    "description": [
+      "<text><translate>cavestone.quests.main.hammer.explanation</translate></text>"
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -300,
+          -155
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "simplytools:stone_hammer",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "cavestone.quests.main.hammer"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": true,
+    "hidden": "LOCKED"
+  }
+}

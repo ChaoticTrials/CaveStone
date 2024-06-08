@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "root"
+  ],
+  "tasks": {
+    "spread": {
+      "icon": {
+        "item": {
+          "id": "minecraft:big_dripleaf",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "predicate": {
+        "spreads": [
+          "water_cave",
+          "water_cave_birch",
+          "water_cave_dark_oak",
+          "water_cave_desert",
+          "water_cave_jungle",
+          "water_cave_spruce",
+          "water_cave_swamp"
+        ]
+      },
+      "type": "skyblockbuilder:spread_location"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "cavestone.quests.main.locate_cavestone_cave.desc"
+    },
+    "description": [
+      "<text><translate>cavestone.quests.main.locate_cavestone_cave.explanation</translate></text>"
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -400,
+          -155
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:big_dripleaf",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "cavestone.quests.main.locate_cavestone_cave"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

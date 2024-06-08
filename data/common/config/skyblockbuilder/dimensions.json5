@@ -1,0 +1,9 @@
+{
+  "End": {
+    "Default": true
+  },
+
+  "Nether": {
+    "netherPortalStructure": "nether_entry.snbt"
+  }
+}

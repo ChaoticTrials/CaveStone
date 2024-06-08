@@ -1,0 +1,30 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "create:stone_types/scorchia"
+    }
+  ],
+  "results": [
+    {
+      "item": "utilitix:tiny_coal"
+    },
+    {
+      "item": "utilitix:tiny_coal",
+      "chance": 0.5
+    },
+    {
+      "item": "utilitix:tiny_coal",
+      "chance": 0.25
+    },
+    {
+      "item": "utilitix:tiny_coal",
+      "chance": 0.15
+    },
+    {
+      "item": "create:cinder_flour",
+      "chance": 0.04
+    }
+  ],
+  "processingTime": 350
+}

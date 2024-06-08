@@ -1,0 +1,26 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "description": "CaveStone data"
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "create",
+        "path": "advancements/.*"
+      },
+      {
+        "namespace": "farmersdelight",
+        "path": "advancements/.*"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "advancements/.*"
+      },
+      {
+        "namespace": "lootr",
+        "path": "advancements/.*"
+      }
+    ]
+  }
+}
