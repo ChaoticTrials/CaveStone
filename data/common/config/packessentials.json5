@@ -1,7 +1,12 @@
 {
+  "BuriedMobs": {
+    "maxChance": 0.5,
+    "minChance": 0.2
+  },
+
   "Snad": {
     // The chance to decrease the fertilization of Snad
-    "decreaseFertilizationChance": 0.01,
+    "decreaseFertilizationChance": 0.01
   },
 
   // Remove annoying toasts
