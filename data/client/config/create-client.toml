@@ -1,0 +1,3 @@
+# Disable config button in main menu
+[client]
+	mainMenuConfigButtonRow = 0

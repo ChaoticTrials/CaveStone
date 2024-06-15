@@ -1,0 +1,15 @@
+##[general]
+B:force_fullscreen = 'false';
+
+##[customization]
+
+B:modpack_mode = 'false';
+B:show_customization_overlay = 'false';
+B:advanced_customization_mode = 'true';
+
+##[window]
+B:show_custom_window_icon = 'true';
+S:custom_window_icon_macos = '/config/fancymenu/assets/logo.icns';
+S:custom_window_icon_32 = '/config/fancymenu/assets/logo32x.png';
+S:custom_window_title = 'CaveStone';
+S:custom_window_icon_16 = '/config/fancymenu/assets/logo16x.png';
