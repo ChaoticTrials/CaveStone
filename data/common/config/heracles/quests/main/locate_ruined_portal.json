@@ -27,6 +27,13 @@
       "xptype": "POINTS",
       "amount": 42,
       "type": "heracles:xp"
+    },
+    "obsidian": {
+      "item": {
+        "id": "minecraft:obsidian",
+        "count": 1
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -57,10 +64,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

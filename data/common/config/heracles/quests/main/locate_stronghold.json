@@ -20,6 +20,26 @@
       "xptype": "POINTS",
       "amount": 420,
       "type": "heracles:xp"
+    },
+    "bow": {
+      "item": {
+        "id": "minecraft:bow",
+        "count": 1,
+        "nbt": {
+          "Enchantments": [
+            {
+              "lvl": 1,
+              "id": "minecraft:infinity"
+            },
+            {
+              "lvl": 1,
+              "id": "minecraft:mending"
+            }
+          ],
+          "Damage": 380
+        }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
@@ -50,10 +70,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

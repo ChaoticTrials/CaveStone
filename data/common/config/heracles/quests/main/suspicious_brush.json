@@ -48,10 +48,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
-    "repeatable": true,
-    "individual_progress": true,
-    "hidden": "LOCKED"
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

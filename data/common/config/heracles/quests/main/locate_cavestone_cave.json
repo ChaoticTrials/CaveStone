@@ -15,7 +15,6 @@
         "spreads": [
           "water_cave",
           "water_cave_birch",
-          "water_cave_cherry",
           "water_cave_dark_oak",
           "water_cave_desert",
           "water_cave_jungle",
@@ -26,7 +25,12 @@
       "type": "skyblockbuilder:spread_location"
     }
   },
-  "rewards": {},
+  "rewards": {
+    "buried_mob": {
+      "loot_table": "cavestone:generic/buried_mobs",
+      "type": "heracles:loottable"
+    }
+  },
   "display": {
     "subtitle": {
       "translate": "cavestone.quests.main.locate_cavestone_cave.desc"
@@ -55,10 +59,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

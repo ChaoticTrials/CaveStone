@@ -8,7 +8,13 @@
       "collection": "AUTOMATIC"
     }
   },
-  "rewards": {},
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 3,
+      "type": "heracles:xp"
+    }
+  },
   "display": {
     "subtitle": {
       "translate": "cavestone.quests.main.root.desc"
@@ -37,10 +43,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

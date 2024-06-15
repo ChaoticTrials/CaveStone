@@ -17,7 +17,15 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "andesite_alloy": {
+      "item": {
+        "id": "create:andesite_alloy",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "translate": "cavestone.quests.create.glowberry_milkshake_to_ochrum.desc"
@@ -47,10 +55,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

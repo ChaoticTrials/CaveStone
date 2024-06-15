@@ -1,15 +1,15 @@
 {
   "dependencies": [],
   "tasks": {
-    "fridge": {
-      "type": "heracles:item",
-      "item": "cookingforblockheads:fridge",
-      "amount": 1,
-      "collection": "AUTOMATIC"
-    },
     "snow": {
       "type": "heracles:item",
       "item": "minecraft:snowball",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "fridge": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:fridge",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -54,10 +54,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }
