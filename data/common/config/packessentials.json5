@@ -1,4 +1,9 @@
 {
+  "Snad": {
+    // The chance to decrease the fertilization of Snad
+    "decreaseFertilizationChance": 0.01,
+  },
+
   // Remove annoying toasts
   "Toasts": {
     "disableRecipeToasts": true,
