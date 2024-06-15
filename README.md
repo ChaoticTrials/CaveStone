@@ -38,6 +38,10 @@ The mod `Inventory Sorter` in `data/common/mods/` is made by `cpw` and only uplo
 [here](https://www.curseforge.com/minecraft/mc-mods/inventory-sorter). It's under GNU GENERAL PUBLIC LICENSE v3. Read
 more about it on the CurseForge website.
 
+The mod `Twerk It Meal` in `data/common/mods` is made by `TicTicBoooom` and only uploaded to CurseForge
+[here](https://www.curseforge.com/minecraft/mc-mods/twerkitmeal). It's under MIT License. Read more about it on the
+CurseForge website.
+
 ## Download
 Use the [Modrinth project page](https://modrinth.com/modpack/cavestone) to download the pack for version 1.0.0 upwards.
 You can also use the [Releases](https://github.com/MelanX/CaveStone/releases) tab here on GitHub. Be aware that versions

@@ -1,0 +1,10 @@
+#When true only saplings are allowed to grow with twerking
+saplingsOnly = true
+
+#The chance of growth effect being applied from sprinting
+#Range: 0.0 ~ 1.0
+sprintGrowChance = 0.001
+
+#The chance of growth effect being applied from any source
+#Range: 0.0 ~ 1.0
+crouchGrowChance = 0.5
