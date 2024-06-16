@@ -1,3 +1,6 @@
+import java.nio.file.Files
+import java.nio.file.StandardCopyOption
+
 buildscript {
     repositories {
         maven { url = 'https://maven.minecraftforge.net/' }
@@ -23,5 +26,51 @@ modpack {
     targets {
         modrinth()
         server()
+    }
+}
+
+task appendVersionToServerProperties {
+    doFirst {
+        // Backup original file before making modifications
+        def serverPropertiesFile = file('data/server/default-server.properties')
+        def backupFile = file('temp/default-server.properties.backup')
+
+        if (!backupFile.exists()) {
+            backupFile.mkdirs()
+            Files.copy(serverPropertiesFile.toPath(), backupFile.toPath(), StandardCopyOption.REPLACE_EXISTING)
+        }
+    }
+
+    doLast {
+        def serverPropertiesFile = file('data/server/default-server.properties')
+        def replaceProperties = [
+                pack_version: version
+        ]
+
+        def updatedContent = serverPropertiesFile.text
+        replaceProperties.each { key, value ->
+            updatedContent = updatedContent.replace("\${" + key + "}", value.toString())
+        }
+
+        serverPropertiesFile.text = updatedContent
+    }
+}
+
+task restoreOriginalServerProperties {
+    doLast {
+        def serverPropertiesFile = file('data/server/default-server.properties')
+        def backupFile = file('temp/default-server.properties.backup')
+
+        if (backupFile.exists()) {
+            Files.copy(backupFile.toPath(), serverPropertiesFile.toPath(), StandardCopyOption.REPLACE_EXISTING)
+            delete backupFile.getParentFile()
+        }
+    }
+}
+
+tasks.configureEach { task ->
+    if (task.name in ['buildModrinthPack', 'buildServerPack']) {
+        task.dependsOn appendVersionToServerProperties
+        task.finalizedBy restoreOriginalServerProperties
     }
 }
