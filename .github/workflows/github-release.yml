@@ -1,4 +1,4 @@
-name: "Create release"
+name: "Create GitHub release"
 
 on:
   push:
@@ -34,13 +34,8 @@ jobs:
       - name: Build Modpack
         run: 'chmod +x ./gradlew && ./gradlew buildTargets'
 
-#      - name: Generate changelog
-#        run: 'python scripts/changelogger.py'
-
-      - name: Upload to Modrinth
-        run: './gradlew modrinth'
-        env:
-          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+      - name: Generate changelog
+        run: 'python scripts/changelogger.py'
 
       - name: Upload Release
         uses: ncipollo/release-action@v1

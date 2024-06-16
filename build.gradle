@@ -14,9 +14,6 @@ buildscript {
     }
 }
 
-plugins {
-    id 'com.modrinth.minotaur' version '2.+'
-}
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'org.moddingx.packdev'
 
@@ -27,22 +24,4 @@ modpack {
         modrinth()
         server()
     }
-}
-
-// https://github.com/modrinth/minotaur
-modrinth {
-    token = System.getenv('MODRINTH_TOKEN')
-    projectId = '3HsvIkiC'
-    versionType = 'beta'
-    gameVersions = ['1.20.1']
-    loaders = ['forge']
-    if (project.file('changelog.md').exists()) {
-        changelog = project.file('changelog.md').getText('UTF-8')
-    }
-    uploadFile = project.file("build/target/${project.name}-${project.version}-modrinth.mrpack")
-    debugMode = true
-}
-
-tasks.modrinth.doLast {
-    if (!modrinth.debugMode && tasks.modrinth.newVersion != null) println tasks.modrinth.newVersion.getId()
 }
