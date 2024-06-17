@@ -1,0 +1,15 @@
+{
+	"x": -97,
+	"y": 5,
+	"width": 194,
+	"height": 32,
+	"texture": "packmenu:textures/gui/singleplayer.png",
+	"hoverU": 0,
+	"hoverV": 83,
+	"texWidth": 455,
+	"texHeight": 166,
+	"scaleX": 0.426373626374,
+	"scaleY": 0.385542168675,
+	"action": "OPEN_GUI",
+	"data": "SINGLEPLAYER"
+}

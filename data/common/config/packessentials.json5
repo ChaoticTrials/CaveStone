@@ -1,4 +1,7 @@
 {
+  // Title screen doesn't look good with other scale
+  "titleScreenScale": 2,
+
   "BuriedMobs": {
     "maxChance": 0.5,
     "minChance": 0.2
