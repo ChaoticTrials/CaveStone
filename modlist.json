@@ -5,20 +5,8 @@
   "minecraft": "1.20.1",
   "installed": [
     {
-      "project": "EsAfCjCV",
-      "file": "XdXDExVF",
-      "side": "common",
-      "locked": false
-    },
-    {
       "project": "joEfVgkn",
       "file": "edGQD16r",
-      "side": "common",
-      "locked": false
-    },
-    {
-      "project": "v7uAVl86",
-      "file": "gzZeeOE7",
       "side": "common",
       "locked": false
     },
@@ -29,21 +17,9 @@
       "locked": false
     },
     {
-      "project": "WN2YCymY",
-      "file": "epLZq3Jv",
-      "side": "common",
-      "locked": false
-    },
-    {
       "project": "UVtY3ZAC",
       "file": "zzrCQ69V",
       "side": "common",
-      "locked": false
-    },
-    {
-      "project": "uEfK2CXF",
-      "file": "jW52tbTk",
-      "side": "client",
       "locked": false
     },
     {
@@ -61,6 +37,18 @@
     {
       "project": "Q2OqKxDG",
       "file": "vhpXnjE2",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "v7uAVl86",
+      "file": "WAuDF3CQ",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "EsAfCjCV",
+      "file": "XdXDExVF",
       "side": "common",
       "locked": false
     },
@@ -197,6 +185,18 @@
       "locked": false
     },
     {
+      "project": "uEfK2CXF",
+      "file": "jW52tbTk",
+      "side": "client",
+      "locked": false
+    },
+    {
+      "project": "QlvIRpDN",
+      "file": "2aQOWQxH",
+      "side": "common",
+      "locked": false
+    },
+    {
       "project": "fPetb5Kh",
       "file": "Og40jCNX",
       "side": "common",
@@ -211,6 +211,12 @@
     {
       "project": "P4FVY4ll",
       "file": "YznbGnc8",
+      "side": "common",
+      "locked": false
+    },
+    {
+      "project": "WN2YCymY",
+      "file": "vZzjHgQR",
       "side": "common",
       "locked": false
     },
