@@ -74,6 +74,12 @@
   "cavestone.quests.main.turtles": "Teenage Mutant... Just a Turtle",
   "cavestone.quests.main.turtles.desc": "A Sniffer sniffs on sandy soil",
   "cavestone.quests.main.turtles.explanation": "",
+  "cavestone.quests.main.composter": "Something smells",
+  "cavestone.quests.main.composter.desc": "Good compost doesn't smell, but it needs time",
+  "cavestone.quests.main.composter.explanation": "It's important to manage your compost thoughtfully. Instead of clearing the bin immediately, consider letting it sit for a while on grass or near water. Over time, the rich compost can promote the growth of beneficial plants and other useful things. Careful composting can yield surprising and valuable results.",
+  "cavestone.quests.main.spawner_room": "Who's mobbing?", "_comment": "Just to make clear: I know that \"Mobben\" is German, \"Bullying\" would be correct English",
+  "cavestone.quests.main.spawner_room.desc": "Mobs somewhere, danger down there",
+  "cavestone.quests.main.spawner_room.explanation": "Down under, there's some danger. Don't be too griefy.",
 
   "cavestone.quests.create.caramel_milkshake_to_veridium": "Copper Concoction",
   "cavestone.quests.create.caramel_milkshake_to_veridium.desc": "Lava's touch and caramel's charm, for copper riches on your farm!",

@@ -1,0 +1,138 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "fill_composter": {
+      "block": "minecraft:composter",
+      "state": {},
+      "type": "heracles:block_interaction"
+    },
+    "any_crop": {
+      "type": "heracles:composite",
+      "amount": 7,
+      "tasks": {
+        "carrot": {
+          "type": "heracles:item",
+          "item": "minecraft:carrot",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "potato": {
+          "type": "heracles:item",
+          "item": "minecraft:potato",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "onion": {
+          "type": "heracles:item",
+          "item": "farmersdelight:onion",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "cabbage_seeds": {
+          "type": "heracles:item",
+          "item": "farmersdelight:cabbage_seeds",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "tomato_seeds": {
+          "type": "heracles:item",
+          "item": "farmersdelight:tomato_seeds",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "wheat_seeds": {
+          "type": "heracles:item",
+          "item": "minecraft:wheat_seeds",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "pumpkin_seeds": {
+          "type": "heracles:item",
+          "item": "minecraft:pumpkin_seeds",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "melon_seeds": {
+          "type": "heracles:item",
+          "item": "minecraft:melon_seeds",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "beetroot_seeds": {
+          "type": "heracles:item",
+          "item": "minecraft:beetroot_seeds",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "torchflower_seeds": {
+          "type": "heracles:item",
+          "item": "minecraft:torchflower_seeds",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "pitcher_pod": {
+          "type": "heracles:item",
+          "item": "minecraft:pitcher_pod",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "sweet_berries": {
+          "type": "heracles:item",
+          "item": "minecraft:sweet_berries",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "seagrass": {
+          "type": "heracles:item",
+          "item": "minecraft:seagrass",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "bonemeal": {
+      "item": {
+        "id": "minecraft:bone_meal",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "cavestone.quests.main.composter.desc"
+    },
+    "description": [
+      "<text><translate>cavestone.quests.main.composter.explanation</translate></text>"
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -230,
+          -200
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:composter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "cavestone.quests.main.composter"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

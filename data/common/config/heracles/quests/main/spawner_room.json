@@ -1,0 +1,63 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "spawner_room": {
+      "icon": {
+        "item": {
+          "id": "minecraft:spawner",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "predicate": {
+        "spreads": [
+          "spawner_room",
+          "spawner_room_deepslate"
+        ]
+      },
+      "type": "skyblockbuilder:spread_location"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "LEVEL",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "cavestone.quests.main.spawner_room.desc"
+    },
+    "description": [
+      "<text><translate>cavestone.quests.main.spawner_room.explanation</translate></text>"
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -248,
+          -170
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:spawner",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "cavestone.quests.main.spawner_room"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}
