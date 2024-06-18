@@ -4,7 +4,7 @@ import shutil
 import subprocess
 import urllib.request
 
-MODLISTCREATOR_VERSION = "4.1.0"
+MODLISTCREATOR_VERSION = "4.1.1"
 OUTPUT_PATH = "changelog"
 REPOSITORY = "MelanX/CaveStone"
 

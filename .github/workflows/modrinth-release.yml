@@ -1,4 +1,4 @@
-name: "Create GitHub release"
+name: "Upload new version to Modrinth"
 
 on:
   release:
