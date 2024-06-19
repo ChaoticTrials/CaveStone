@@ -18,7 +18,7 @@ jobs:
 
       - name: 'Optimize Images'
         run: |
-          find . -name "*.png" -exec optipng -o7 {} \;
+          find . -name "*.png" -exec optipng -o9 {} \;
 
       - name: Set up JDK 17
         uses: actions/setup-java@v3
@@ -38,9 +38,23 @@ jobs:
         run: 'python scripts/changelogger.py'
 
       - name: Upload Release
-        uses: ncipollo/release-action@v1
+        uses: Kir-Antipov/mc-publish@v3.3
         with:
-          generateReleaseNotes: true
-          bodyFile: 'changelog.md'
-          artifacts: 'build/target/*.zip,build/target/*.mrpack'
-          token: ${{ secrets.GITHUB_TOKEN }}
+          with:
+            modrinth-id: 3HsvIkiC
+            modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+            name: ""
+            modrinth-files:
+              - build/target/*.mrpack
+            github-files:
+              - build/target/*.mrpack
+              - build/target/*.zip
+            loaders:
+              - forge
+            game-versions:
+              - 1.20.1
+            version-type: beta
+
+            github-token: ${{ secrets.GITHUB_TOKEN }}
+            changelog-file: changelog.md
+            github-generate-changelog: true
