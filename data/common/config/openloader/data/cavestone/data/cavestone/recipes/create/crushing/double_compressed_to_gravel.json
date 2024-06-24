@@ -21,7 +21,7 @@
       "count": 16
     },
     {
-      "chance": 0.1,
+      "chance": 0.15,
       "item": "minecraft:suspicious_gravel",
       "nbt": "{BlockEntityTag:{LootTable:\"cavestone:suspicious_gravel\"}}",
       "count": 16
