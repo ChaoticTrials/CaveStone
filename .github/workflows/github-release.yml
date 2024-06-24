@@ -43,15 +43,13 @@ jobs:
           modrinth-id: 3HsvIkiC
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
           name: ""
-          modrinth-files:
-            - build/target/*.mrpack
-          github-files:
-            - build/target/*.mrpack
-            - build/target/*.zip
-          loaders:
-            - forge
-          game-versions:
-            - 1.20.1
+          modrinth-files: |
+            build/target/*.mrpack
+          github-files: |
+            build/target/*.mrpack
+            build/target/*.zip
+          loaders: forge
+          game-versions: 1.20.1
           version-type: beta
 
           github-token: ${{ secrets.GITHUB_TOKEN }}
