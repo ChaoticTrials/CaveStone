@@ -1,4 +1,4 @@
-name: "Create GitHub release"
+name: "Create Releases"
 
 on:
   push:
