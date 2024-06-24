@@ -1,0 +1,21 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "packessentials:compressed_gravel"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:sand",
+      "count": 7
+    },
+    {
+      "chance": 0.15,
+      "item": "minecraft:suspicious_sand",
+      "nbt": "{BlockEntityTag:{LootTable:\"cavestone:suspicious_gravel\"}}",
+      "count": 2
+    }
+  ],
+  "processingTime": 2250
+}
