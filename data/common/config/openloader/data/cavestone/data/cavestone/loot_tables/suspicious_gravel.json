@@ -10,8 +10,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "cavestone:suspicious_gravel/vanilla_merged",
-          "weight": 3
+          "name": "cavestone:suspicious_gravel/vanilla_merged"
         }
       ],
       "rolls": 1.0

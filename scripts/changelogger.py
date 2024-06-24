@@ -6,7 +6,7 @@ import urllib.request
 
 MODLISTCREATOR_VERSION = "4.1.1"
 OUTPUT_PATH = "changelog"
-REPOSITORY = "MelanX/CaveStone"
+REPOSITORY = "ChaoticTrials/CaveStone"
 
 
 def create_paths():

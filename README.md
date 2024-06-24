@@ -1,4 +1,5 @@
 # CaveStone
+![](https://badges.moddingx.org/modrinth/downloads/cavestone)
 
 [![Header](https://raw.githubusercontent.com/MelanX/ModDescriptions/HEAD/assets/modpacks/cavestone/header.png)](https://modrinth.com/modpack/cavestone)
 
