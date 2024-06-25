@@ -42,6 +42,7 @@ jobs:
         with:
           modrinth-id: 3HsvIkiC
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          modrinth-changelog-file: modrinth_changelog.md
           name: ""
           modrinth-files: |
             build/target/*.mrpack
@@ -53,5 +54,6 @@ jobs:
           version-type: beta
 
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          changelog-file: changelog.md
+          github-prerelease: false
+          github-changelog-file: github_changelog.md
           github-generate-changelog: true

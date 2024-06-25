@@ -4,9 +4,17 @@ import shutil
 import subprocess
 import urllib.request
 
-MODLISTCREATOR_VERSION = "4.1.1"
+import github_utils
+
+MODLISTCREATOR_VERSION = "4.1.2"
 OUTPUT_PATH = "changelog"
 REPOSITORY = "ChaoticTrials/CaveStone"
+COMMITS_CHANGELOG_FILE = 'commits_changelog.md'
+MODS_CHANGELOG_FILE = 'mods_changelog.md'
+MODLIST_FILE = 'modlist.md'
+
+GITHUB_CHANGELOG = 'github_changelog.md'
+MODRINTH_CHANGELOG = 'modrinth_changelog.md'
 
 
 def create_paths():
@@ -46,28 +54,62 @@ def copy_export():
             return
 
 
-def create_changelog():
-    subprocess.check_call(
-        ["java", "-jar", f"{OUTPUT_PATH}/mlc.jar", "changelog",
-         "--old", f"{OUTPUT_PATH}/old.mrpack",
-         "--new", f"{OUTPUT_PATH}/new.mrpack",
-         "--output", "./changelog.md"]
-    )
+def generate_commits_changelog():
+    current_tag = github_utils.get_current_tag()
+    if not current_tag:
+        print("Could not determine the current tag.")
+        return
+
+    previous_tag = github_utils.get_previous_tag(current_tag)
+    if not previous_tag:
+        print("Could not determine the previous tag.")
+        return
+
+    try:
+        # Get the commit messages between the two tags
+        commit_log = subprocess.check_output(
+            ["git", "log", f"{previous_tag}..{current_tag}", "--pretty=format:- %s"],
+            universal_newlines=True
+        )
+
+        with open(COMMITS_CHANGELOG_FILE, 'w') as f:
+            f.write(commit_log + '\n')
+
+    except subprocess.CalledProcessError as e:
+        print(f"An error occurred while generating the changelog: {e}")
 
 
-def append_modlist():
+def generate_mod_changelog(no_header: bool = False):
+    args = ["java", "-jar", f"{OUTPUT_PATH}/mlc.jar", "changelog",
+            "--old", f"{OUTPUT_PATH}/old.mrpack",
+            "--new", f"{OUTPUT_PATH}/new.mrpack",
+            "--output", MODS_CHANGELOG_FILE]
+    if no_header:
+        args.insert(4, "--no-header")
+    subprocess.check_call(args)
+
+
+def generate_modlist():
     subprocess.check_call(
         ["java", "-jar", f"{OUTPUT_PATH}/mlc.jar", "modlist",
          "--no-header",
-         "--output", "./modlist.md",
+         "--output", MODLIST_FILE,
          f"{OUTPUT_PATH}/new.mrpack"]
     )
-    with open("./modlist.md", "r", encoding="utf-8") as f:
-        modlist = f.read()
 
-    with open("./changelog.md", "a", encoding="utf-8") as f:
-        f.write("# Modlist\n\n")
-        f.write(modlist)
+
+def append_file(target: str, file: str, title: str = None, spoiler: bool = False):
+    with open(file, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    with open(target, "a", encoding="utf-8") as f:
+        if spoiler:
+            f.write(f'<details><summary>{title if title else 'Spoiler'}</summary>\n\n')
+        elif title:
+            f.write(f"# {title}\n\n")
+        f.write(content + '\n')
+        if spoiler:
+            f.write('\n\n</details>\n\n')
 
 
 def main():
@@ -86,11 +128,22 @@ def main():
     print("Copy the modpack export to changelog path")
     copy_export()
 
-    print("Create the changelog")
-    create_changelog()
+    print("Generate commits changelog")
+    generate_commits_changelog()
 
-    print("Appending modlist to changelog")
-    append_modlist()
+    print("Generate modlist")
+    generate_modlist()
+
+    print("Summarize github changelog")
+    generate_mod_changelog(no_header=False)
+    append_file(GITHUB_CHANGELOG, MODS_CHANGELOG_FILE)
+    append_file(GITHUB_CHANGELOG, MODLIST_FILE, title='Modlist')
+
+    print("Summarize modrinth changelog")
+    generate_mod_changelog(no_header=True)
+    append_file(MODRINTH_CHANGELOG, COMMITS_CHANGELOG_FILE)
+    append_file(MODRINTH_CHANGELOG, MODS_CHANGELOG_FILE, title='Mod changes', spoiler=True)
+    append_file(MODRINTH_CHANGELOG, MODLIST_FILE, title='Modlist', spoiler=True)
 
 
 if __name__ == "__main__":
