@@ -6,7 +6,7 @@ import urllib.request
 
 import github_utils
 
-MODLISTCREATOR_VERSION = "4.1.2"
+MODLISTCREATOR_VERSION = "5.0.0"
 OUTPUT_PATH = "changelog"
 REPOSITORY = "ChaoticTrials/CaveStone"
 COMMITS_CHANGELOG_FILE = 'commits_changelog.md'
@@ -24,7 +24,7 @@ def create_paths():
 
 def download_tools():
     urllib.request.urlretrieve(
-        f"https://github.com/ModdingX/ModListCreator/releases/download/v{MODLISTCREATOR_VERSION}/ModListCreator-{MODLISTCREATOR_VERSION}-fatjar.jar",
+        f"https://github.com/ModdingX/ModListCreator/releases/download/{MODLISTCREATOR_VERSION}/ModListCreator-{MODLISTCREATOR_VERSION}-fatjar.jar",
         f"{OUTPUT_PATH}/mlc.jar")
 
 
@@ -72,8 +72,10 @@ def generate_commits_changelog():
             universal_newlines=True
         )
 
+        filtered_lines = [line for line in commit_log.split("\n") if not line.startswith("- [meta]")]
+
         with open(COMMITS_CHANGELOG_FILE, 'w') as f:
-            f.write(commit_log + '\n')
+            f.write("\n".join(filtered_lines) + '\n')
 
     except subprocess.CalledProcessError as e:
         print(f"An error occurred while generating the changelog: {e}")
