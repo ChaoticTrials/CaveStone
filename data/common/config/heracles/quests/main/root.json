@@ -13,6 +13,38 @@
       "xptype": "POINTS",
       "amount": 3,
       "type": "heracles:xp"
+    },
+    "backpack": {
+      "icon": {
+        "item": {
+          "id": "utilitix:backpack",
+          "count": 1,
+          "nbt": {
+            "display": {
+              "color": 7654232
+            },
+            "Items": {
+              "Size": 18,
+              "Items": []
+            }
+          }
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "utilitix:backpack",
+        "count": 1,
+        "nbt": {
+          "display": {
+            "color": 7654232
+          },
+          "Items": {
+            "Size": 18,
+            "Items": []
+          }
+        }
+      },
+      "type": "heracles:item"
     }
   },
   "display": {
