@@ -13,7 +13,7 @@
     {
       "chance": 0.15,
       "item": "minecraft:suspicious_sand",
-      "nbt": "{BlockEntityTag:{LootTable:\"cavestone:suspicious_gravel\"}}",
+      "nbt": "{BlockEntityTag:{LootTable:\"cavestone:generic/buried_mobs\"}}",
       "count": 16
     }
   ],
