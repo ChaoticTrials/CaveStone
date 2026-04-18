@@ -24,10 +24,9 @@ Come, dive into a world full of stone!
 
 ![Server](https://raw.githubusercontent.com/MelanX/ModDescriptions/HEAD/assets/modpacks/cavestone/server.png)
 
-For help with the Modpack, feel free to visit my Discord server (sorry, most of it is
-German, but just writing in English is fine)!
+For help with the Modpack, feel free to visit my Discord server!
 
-[![Discord](https://raw.githubusercontent.com/MelanX/ModDescriptions/HEAD/assets/modpacks/cavestone/discord.png)](https://melanx.de/discord)
+[![Discord](https://raw.githubusercontent.com/MelanX/ModDescriptions/HEAD/assets/modpacks/cavestone/discord.png)](https://discord.chaotictrials.de/)
 
 ## Credits
 
