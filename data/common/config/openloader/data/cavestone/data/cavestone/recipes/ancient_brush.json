@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " ss",
+    " cs",
+    "w  "
+  ],
+  "key": {
+    "w": {
+      "tag": "forge:rods/wooden"
+    },
+    "s": {
+      "tag": "forge:string"
+    },
+    "c": {
+      "tag": "forge:nuggets/copper"
+    }
+  },
+  "result": {
+    "item": "packessentials:ancient_brush"
+  }
+}
