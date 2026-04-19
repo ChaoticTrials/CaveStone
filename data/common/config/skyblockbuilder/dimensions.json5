@@ -5,5 +5,14 @@
 
   "Nether": {
     "netherPortalStructure": "nether_entry.snbt"
+  },
+
+  "Overworld": {
+    "centeredBiomes": [
+      {
+        "id": "minecraft:plains",
+        "radius": 64
+      }
+    ]
   }
 }
